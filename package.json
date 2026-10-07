@@ -1,0 +1,26 @@
+{
+  "name": "openai-math-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "bun --hot src/index.ts",
+    "build": "bun run build.ts",
+    "fetch-catalogue": "bun scripts/fetch-catalogue.ts",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "katex": "^0.19.0",
+    "react": "^19",
+    "react-dom": "^19"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/katex": "^0.16.8",
+    "@types/react": "^19",
+    "@types/react-dom": "^19"
+  },
+  "peerDependencies": {
+    "typescript": "^7"
+  }
+}
