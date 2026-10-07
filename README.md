@@ -1,5 +1,7 @@
 # OpenAI math preprints, read and ranked
 
+**Live site: https://stur86.github.io/openai-math-dashboard/**
+
 A static dashboard listing every paper in the [openai/math preprint collection](https://github.com/openai/math/tree/main/preprints), with a plain-language summary, an importance score (1–5), the kind of result and topic tags for each.
 
 The papers were produced by an internal OpenAI model and many are not independently verified. The summaries, scores and tags in this repository are AI-written editorial judgments about what each paper claims, not peer review.
@@ -37,3 +39,9 @@ bun run build  # static site in dist/
 ## Deployment
 
 `.github/workflows/pages.yml` type-checks, tests, builds and publishes `dist/` to GitHub Pages on every push to `main`. In the repository settings, set Pages → Source to "GitHub Actions".
+
+## License
+
+The code and the editorial annotations (`data/annotations.json`) are released under the [MIT License](LICENSE).
+
+`data/catalogue.json` contains titles, abstracts and other metadata taken from [openai/math](https://github.com/openai/math), which is licensed under the Apache License 2.0. That data remains under the Apache License 2.0, and a copy is included as [`data/LICENSE-openai-math`](data/LICENSE-openai-math). The papers themselves are not redistributed here; the site links to them in the original repository.

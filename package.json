@@ -22,5 +22,6 @@
   },
   "peerDependencies": {
     "typescript": "^7"
-  }
+  },
+  "license": "MIT"
 }
