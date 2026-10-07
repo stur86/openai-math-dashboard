@@ -4,7 +4,7 @@
 
 A static dashboard listing every paper in the [openai/math preprint collection](https://github.com/openai/math/tree/main/preprints), with a plain-language summary, an importance score (1–5), the kind of result and topic tags for each.
 
-The papers were produced by an internal OpenAI model and many are not independently verified. The summaries, scores and tags in this repository are AI-written editorial judgments about what each paper claims, not peer review.
+The papers were produced by an internal OpenAI model and many are not independently verified. The summaries, scores and tags in this repository were written by Claude Opus 5.5 and are editorial judgments about what each paper claims, not peer review.
 
 ## Data
 
@@ -25,7 +25,7 @@ Data and presentation are kept separate. Both JSON files are baked into the bund
 | 2 | Supporting: special case, companion or technical step |
 | 1 | Minor: conditional or narrow |
 
-Scores describe the claimed result, assuming it is correct.
+Importance scores are subjective evaluations by Claude Opus 5.5. They describe the claimed result, assuming it is correct.
 
 ## Development
 

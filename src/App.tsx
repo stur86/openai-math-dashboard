@@ -138,8 +138,8 @@ export function App() {
           The papers were produced by an internal OpenAI model and many are not yet independently verified; only those
           marked <span className="lean-inline">Lean</span> ({papers.filter(p => p.formalized).length} of {papers.length}) have
           a machine-checked formalization, and its scope can be narrower than the paper.
-          Summaries, scores and tags here are AI-written editorial judgments about what each paper claims, not peer
-          review.
+          Summaries, scores and tags here were written by Claude Opus 5.5; the importance scores in particular are its
+          subjective evaluations of what each paper claims, not peer review.
         </p>
       </header>
 
