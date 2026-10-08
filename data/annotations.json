@@ -10,8 +10,8 @@
     ]
   },
   "Exact-Birch-Swinnerton-Dyer-Formula-from-Low-Selmer-Corank-October-3-2026": {
-    "summary": "Proves the exact Birch–Swinnerton-Dyer formula, one of the Millennium Prize problems, for every elliptic curve whose rank is detectably 0 or 1 at some prime. This links counting rational points on the curve to the value of an associated analytic function.",
-    "importance": 5,
+    "summary": "For elliptic curves of rank 0 or 1 (strictly, Selmer corank 0 or 1 at some prime), proves the exact Birch–Swinnerton-Dyer formula, which predicts the leading value of the curve’s L-function from its rational points, periods and Tate–Shafarevich group. In this range the rank part was already known from Gross–Zagier and Kolyvagin; the new step is the exact formula at every odd prime. The Millennium Prize problem covers all ranks and remains open.",
+    "importance": 4,
     "kind": "proof",
     "tags": [
       "elliptic-curves",
