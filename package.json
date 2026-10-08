@@ -7,6 +7,7 @@
     "dev": "bun --hot src/index.ts",
     "build": "bun run build.ts",
     "fetch-catalogue": "bun scripts/fetch-catalogue.ts",
+    "sync-annotations": "bun scripts/sync-annotations.ts",
     "test": "bun test"
   },
   "dependencies": {

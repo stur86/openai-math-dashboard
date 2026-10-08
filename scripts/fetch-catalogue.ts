@@ -7,7 +7,7 @@
 import path from "node:path";
 
 const REPO = "openai/math";
-const ref = process.argv[2] ?? "adc7f1241b42e322a6451854ab7e4b4c146bf78a";
+const ref = process.argv[2] ?? "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb";
 const raw = (file: string) => `https://raw.githubusercontent.com/${REPO}/${ref}/${file}`;
 
 async function get(file: string): Promise<string> {

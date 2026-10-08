@@ -1,5 +1,5 @@
 {
-  "Milnes-rationality-conjecture-for-abelian-varieties-September-23-2026": {
+  "Milnes-rationality-conjecture-for-abelian-varieties-October-7-2026": {
     "summary": "Shows that certain \"shadow\" geometric quantities on abelian varieties (higher-dimensional doughnut-like shapes defined by equations) are honest rational numbers no matter which measuring tool (cohomology theory) you use, confirming a conjecture of James Milne.",
     "importance": 4,
     "kind": "proof",
@@ -9,8 +9,8 @@
       "algebraic-cycles"
     ]
   },
-  "Exact-Birch-Swinnerton-Dyer-Formula-from-Low-Selmer-Corank-October-3-2026": {
-    "summary": "For elliptic curves of rank 0 or 1 (strictly, Selmer corank 0 or 1 at some prime), proves the exact Birch–Swinnerton-Dyer formula, which predicts the leading value of the curve’s L-function from its rational points, periods and Tate–Shafarevich group. In this range the rank part was already known from Gross–Zagier and Kolyvagin; the new step is the exact formula at every odd prime. The Millennium Prize problem covers all ranks and remains open.",
+  "Exact-Birch-Swinnerton-Dyer-Formula-from-Low-Selmer-Corank-October-7-2026": {
+    "summary": "Settles a special case of the Birch–Swinnerton-Dyer conjecture, one of the seven Millennium Prize problems, but not the full conjecture. The conjecture links the rational points of an elliptic curve to its L-function. This paper proves its exact formula for curves of rank 0 or 1 (strictly, Selmer corank 0 or 1 at some prime). The prize problem asks about curves of every rank. For ranks 0 and 1, the rank part was already known from Gross–Zagier and Kolyvagin; the new step is the exact formula at every odd prime.",
     "importance": 4,
     "kind": "proof",
     "tags": [
@@ -19,7 +19,7 @@
       "l-functions"
     ]
   },
-  "The-Selmer-converse-for-elliptic-curves-at-every-prime-September-24-2026": {
+  "The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026": {
     "summary": "If a standard algebraic \"upper bound\" on an elliptic curve's rank says the rank is 0 or 1, then the true rank is exactly that. As an application, settles which primes of certain forms are sums of two rational cubes.",
     "importance": 4,
     "kind": "proof",
@@ -29,7 +29,7 @@
       "selmer-groups"
     ]
   },
-  "The-two-primary-Birch-Swinnerton-Dyer-formula-in-Selmer-corank-at-most-one-September-24-2026": {
+  "The-two-primary-Birch-Swinnerton-Dyer-formula-in-Selmer-corank-at-most-one-October-6-2026": {
     "summary": "Proves the part of the Birch–Swinnerton-Dyer formula that concerns powers of 2, for elliptic curves of rank 0 or 1, and shows it holds for almost all \"twisted\" versions of any given curve.",
     "importance": 3,
     "kind": "proof",
@@ -69,7 +69,7 @@
       "analytic-number-theory"
     ]
   },
-  "Hilberts-tenth-problem-over-the-rational-numbers-September-24-2026": {
+  "Hilberts-tenth-problem-over-the-rational-numbers-October-6-2026": {
     "summary": "Shows that no computer program can decide, in general, whether a polynomial equation with integer coefficients has a solution in fractions. This settles the rational-number version of Hilbert's tenth problem, open since Matiyasevich solved the integer version in 1970.",
     "importance": 5,
     "kind": "proof",
@@ -79,7 +79,7 @@
       "logic"
     ]
   },
-  "A-pointwise-2-converse-for-elliptic-curves-with-rational-two-torsion-September-24-2026": {
+  "A-pointwise-2-converse-for-elliptic-curves-with-rational-two-torsion-October-7-2026": {
     "summary": "For elliptic curves that have a rational point of order two, shows that a 2-adic algebraic rank estimate of 0 or 1 is always exact, a step towards the Birch–Swinnerton-Dyer conjecture.",
     "importance": 3,
     "kind": "proof",
@@ -98,7 +98,7 @@
       "special-constants"
     ]
   },
-  "Goldfelds-analytic-density-conjecture-and-the-2-converse-for-elliptic-curves-September-23-2026": {
+  "Goldfelds-analytic-density-conjecture-and-the-2-converse-for-elliptic-curves-October-7-2026": {
     "summary": "Proves Goldfeld's conjecture: among all \"twists\" of a given elliptic curve, exactly half have rank 0 and half have rank 1 (in density), so higher ranks are rare.",
     "importance": 4,
     "kind": "proof",
@@ -108,7 +108,7 @@
       "ranks"
     ]
   },
-  "The-mean-analytic-rank-of-quadratic-twists-of-elliptic-curves-September-23-2026": {
+  "The-mean-analytic-rank-of-quadratic-twists-of-elliptic-curves-October-6-2026": {
     "summary": "Shows that the average rank of the twists of any elliptic curve tends to exactly 1/2, confirming Goldfeld's mean-rank prediction.",
     "importance": 4,
     "kind": "proof",
@@ -168,7 +168,7 @@
       "function-fields"
     ]
   },
-  "Unrestricted-pro-modularity-at-the-prime-two-October-4-2026": {
+  "Unrestricted-pro-modularity-at-the-prime-two-October-6-2026": {
     "summary": "Shows that every suitable 2-dimensional 2-adic symmetry pattern (Galois representation) of the rationals appears in a space of modular forms, removing technical restrictions that held back earlier results at the prime 2.",
     "importance": 4,
     "kind": "proof",
@@ -188,7 +188,7 @@
       "langlands-program"
     ]
   },
-  "Fontaine-Mazur-modularity-at-the-prime-2-September-23-2026": {
+  "Fontaine-Mazur-modularity-at-the-prime-2-October-6-2026": {
     "summary": "Proves the Fontaine–Mazur conjecture at the prime 2 for odd two-dimensional representations: every \"geometric-looking\" Galois representation really comes from a modular form.",
     "importance": 4,
     "kind": "proof",
@@ -432,7 +432,7 @@
       "etale-covers"
     ]
   },
-  "The-p-adic-section-conjecture-September-24-2026": {
+  "The-p-adic-section-conjecture-October-6-2026": {
     "summary": "Proves the local p-adic version of Grothendieck's section conjecture: points on a curve correspond exactly to splittings of its fundamental group. Also gives the global conjecture for modular curves.",
     "importance": 5,
     "kind": "proof",
@@ -563,28 +563,8 @@
       "number-fields"
     ]
   },
-  "The-rational-Hodge-conjecture-for-products-of-K3-surfaces-October-4-2026": {
-    "summary": "Proves the Hodge conjecture (a Millennium Prize problem in general) for all products of K3 surfaces: every \"Hodge class\" is represented by actual algebraic subvarieties.",
-    "importance": 5,
-    "kind": "proof",
-    "tags": [
-      "hodge-conjecture",
-      "k3-surfaces",
-      "algebraic-cycles"
-    ]
-  },
-  "Algebraicity-of-Kuga-Satake-Correspondences-for-K3-Surfaces-October-3-2026": {
-    "summary": "Shows the Kuga–Satake construction, which attaches an abelian variety to each K3 surface, is realized by an algebraic correspondence. This was a long-standing open problem.",
-    "importance": 4,
-    "kind": "proof",
-    "tags": [
-      "kuga-satake",
-      "k3-surfaces",
-      "algebraic-cycles"
-    ]
-  },
-  "The-rational-Hodge-conjecture-for-CM-abelian-varieties-September-30-2026": {
-    "summary": "Proves the Hodge conjecture for abelian varieties with complex multiplication. As consequences it gets the Tate conjecture for abelian varieties over finite fields and Grothendieck's Hodge standard conjecture for abelian varieties.",
+  "The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026": {
+    "summary": "Settles the Hodge conjecture, one of the seven Millennium Prize problems, for one important family of spaces but not in general: abelian varieties with complex multiplication, which have unusually many symmetries. On these, every \"Hodge class\" (a shape seen by topology) comes from actual algebraic subvarieties. Through known implications, this also gives the Tate conjecture for abelian varieties over finite fields and Grothendieck’s Hodge standard conjecture for abelian varieties.",
     "importance": 5,
     "kind": "proof",
     "tags": [
@@ -594,7 +574,7 @@
     ]
   },
   "Algebraic-Kuga-Satake-correspondences-and-Hodge-conjectures-on-a-K3-quadratic-locus-September-30-2026": {
-    "summary": "Proves the Hodge conjecture for all powers of K3 surfaces whose lattice fits a specific shape, an intermediate step towards the general K3 result.",
+    "summary": "Proves the Hodge conjecture for all powers of K3 surfaces whose lattice fits a specific shape.",
     "importance": 3,
     "kind": "proof",
     "tags": [
@@ -603,7 +583,7 @@
       "kuga-satake"
     ]
   },
-  "Weil-classes-and-Hodge-classes-on-abelian-powers-September-30-2026": {
+  "Weil-classes-and-Hodge-classes-on-abelian-powers-October-6-2026": {
     "summary": "Proves the Hodge conjecture for powers of certain abelian sixfolds and all abelian varieties of dimension at most five with an imaginary-quadratic action.",
     "importance": 3,
     "kind": "proof",
@@ -613,23 +593,13 @@
       "weil-classes"
     ]
   },
-  "Abelian-covers-Gale-correspondences-and-the-Hodge-conjecture-for-powers-September-30-2026": {
+  "Abelian-covers-Gale-correspondences-and-the-Hodge-conjecture-for-powers-October-6-2026": {
     "summary": "Proves the Hodge conjecture (that certain topological \"shadows\" always come from real geometric subvarieties) for all powers of Jacobians attached to generic covers of curves.",
     "importance": 3,
     "kind": "proof",
     "tags": [
       "hodge-conjecture",
       "jacobians",
-      "abelian-varieties"
-    ]
-  },
-  "Algebraicity-of-Weil-classes-on-split-abelian-eightfolds-September-18-2026": {
-    "summary": "Shows that \"Weil classes\", a classic test case for the Hodge conjecture, are algebraic on split abelian eightfolds.",
-    "importance": 3,
-    "kind": "proof",
-    "tags": [
-      "hodge-conjecture",
-      "weil-classes",
       "abelian-varieties"
     ]
   },
@@ -690,7 +660,7 @@
       "birational-geometry"
     ]
   },
-  "Log-abundance-for-compact-Kahler-spaces-under-logarithmic-Iitaka-subadditivity-October-4-2026": {
+  "Log-abundance-for-compact-Kahler-spaces-under-logarithmic-Iitaka-subadditivity-October-6-2026": {
     "summary": "Assuming log Iitaka subadditivity, proves log abundance for compact Kähler spaces in all dimensions.",
     "importance": 3,
     "kind": "partial",
@@ -710,7 +680,7 @@
       "boundedness"
     ]
   },
-  "Conditional-good-minimal-models-for-compact-Kahler-fourfolds-October-5-2026": {
+  "Conditional-good-minimal-models-for-compact-Kahler-fourfolds-October-6-2026": {
     "summary": "Conditional existence of good minimal models for compact Kähler fourfolds, assuming several conjectures.",
     "importance": 2,
     "kind": "partial",
@@ -843,7 +813,7 @@
       "threefolds"
     ]
   },
-  "Numerical-semiampleness-of-nef-adjoint-classes-on-compact-Kahler-manifolds-October-4-2026": {
+  "Numerical-semiampleness-of-nef-adjoint-classes-on-compact-Kahler-manifolds-October-6-2026": {
     "summary": "Numerical semiampleness of nef adjoint classes on compact Kähler manifolds, a Kähler analogue of generalised abundance.",
     "importance": 3,
     "kind": "proof",
@@ -1138,7 +1108,7 @@
       "calabi-yau"
     ]
   },
-  "Termination-of-generalized-log-canonical-flips-on-compact-Kahler-fourfolds-October-5-2026": {
+  "Termination-of-generalized-log-canonical-flips-on-compact-Kahler-fourfolds-October-7-2026": {
     "summary": "Shows the minimal model program (a step-by-step simplification of a geometric space) always stops after finitely many steps for compact Kähler fourfolds of a general type.",
     "importance": 3,
     "kind": "proof",
@@ -1148,7 +1118,7 @@
       "kahler-geometry"
     ]
   },
-  "Termination-of-generalized-canonical-flips-on-compact-Kahler-fourfolds-October-5-2026": {
+  "Termination-of-generalized-canonical-flips-on-compact-Kahler-fourfolds-October-6-2026": {
     "summary": "Termination of generalized canonical flips for compact Kähler fourfolds (companion variant).",
     "importance": 2,
     "kind": "proof",
@@ -1167,8 +1137,8 @@
       "termination-of-flips"
     ]
   },
-  "Finite-ordinary-minimal-model-programs-on-compact-Kahler-fourfolds-October-5-2026": {
-    "summary": "Every ordinary MMP on compact Kähler klt fourfolds terminates at a minimal model or Mori fibre space.",
+  "Finite-ordinary-minimal-model-programs-on-compact-Kahler-fourfolds-October-6-2026": {
+    "summary": "Shows every run of the minimal model program on a compact Kähler klt fourfold terminates, ending at a simplified model (a companion version of the termination result).",
     "importance": 2,
     "kind": "proof",
     "tags": [
@@ -4131,7 +4101,7 @@
       "factors-of-iid"
     ]
   },
-  "Gaussian-free-field-limits-of-weighted-integer-Lipschitz-heights-September-25-2026": {
+  "Gaussian-free-field-limits-of-weighted-integer-Lipschitz-heights-October-6-2026": {
     "summary": "Weighted integer Lipschitz height functions on the triangular lattice look like a Gaussian free field (a random \"rough surface\") at large scales.",
     "importance": 3,
     "kind": "proof",
@@ -4140,7 +4110,7 @@
       "gaussian-free-field"
     ]
   },
-  "The-Gaussian-free-field-limit-of-integer-Lipschitz-heights-with-two-arc-boundary-data-September-25-2026": {
+  "The-Gaussian-free-field-limit-of-integer-Lipschitz-heights-with-two-arc-boundary-data-October-6-2026": {
     "summary": "Odd integer Lipschitz heights with two-arc boundary data converge to the Gaussian free field, solving Schramm's Problem 2.2.",
     "importance": 3,
     "kind": "proof",
@@ -4149,7 +4119,7 @@
       "gaussian-free-field"
     ]
   },
-  "Uniform-real-Lipschitz-surfaces-on-the-triangular-lattice-September-25-2026": {
+  "Uniform-real-Lipschitz-surfaces-on-the-triangular-lattice-October-6-2026": {
     "summary": "Random real Lipschitz surfaces converge to the Gaussian free field, and their level line converges to SLE₄, solving Schramm's Problem 2.3.",
     "importance": 4,
     "kind": "proof",
@@ -4159,7 +4129,7 @@
       "sle"
     ]
   },
-  "The-joint-scaling-limit-of-critical-Ashkin-Teller-currents-September-25-2026": {
+  "The-joint-scaling-limit-of-critical-Ashkin-Teller-currents-October-6-2026": {
     "summary": "Identifies the full scaling limit of the critical Ashkin–Teller model (two coupled Ising models), including its height function and cluster boundaries.",
     "importance": 4,
     "kind": "proof",
@@ -6087,7 +6057,7 @@
       "symplectic-topology"
     ]
   },
-  "Deforming-hypersymplectic-four-manifolds-to-hyperkahler-triples-September-23-2026": {
+  "Deforming-hypersymplectic-four-manifolds-to-hyperkahler-triples-October-7-2026": {
     "summary": "Proves Donaldson's hypersymplectic conjecture: a triple of symplectic forms on a 4-manifold can be deformed to a hyperkähler (maximally symmetric) one.",
     "importance": 4,
     "kind": "proof",
@@ -6097,7 +6067,7 @@
       "four-manifolds"
     ]
   },
-  "Taming-implies-compatibility-on-four-manifolds-September-23-2026": {
+  "Taming-implies-compatibility-on-four-manifolds-October-6-2026": {
     "summary": "Proves Donaldson's tamed-to-compatible conjecture: on a 4-manifold, an almost complex structure tamed by a symplectic form is compatible with one.",
     "importance": 5,
     "kind": "proof",
@@ -6670,7 +6640,7 @@
       "universal-computation"
     ]
   },
-  "Incompressible-Box-Transport-and-Finite-Computation-September-27-2026": {
+  "Incompressible-Box-Transport-and-Finite-Computation-October-6-2026": {
     "summary": "Box transport via incompressible flows used to embed finite computations in fluids.",
     "importance": 3,
     "kind": "construction",

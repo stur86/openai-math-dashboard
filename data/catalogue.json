@@ -1,8 +1,8 @@
 {
   "source": {
     "repo": "openai/math",
-    "ref": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
-    "fetchedAt": "2026-10-07T14:27:28.715Z"
+    "ref": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+    "fetchedAt": "2026-10-08T08:55:18.102Z"
   },
   "families": [
     {
@@ -164,7 +164,7 @@
     {
       "id": "027",
       "title": "Potential integral density on curve character varieties",
-      "description": "Resolves the determinant-one curve case of Litt's integral-density question. For every smooth connected complex algebraic curve and every rank, integral points become Zariski dense in every component of its SL_{r} character variety over the full ring of integers of one number field. Prescribed quasi-unipotent boundary conjugacy classes are allowed, including nonsemisimple classes.",
+      "description": "Resolves the determinant-one curve case of Litt's integral-density question. For every smooth connected complex algebraic curve and every rank, integral points become Zariski dense in every component of its SL_{r} character variety over the full ring of integers of one number field. Prescribed quasi-unipotent boundary conjugacy classes are allowed, including nonsemisimple classes. ([Lean](lean/docs/027.md))",
       "discipline": "Number theory"
     },
     {
@@ -193,8 +193,8 @@
     },
     {
       "id": "032",
-      "title": "Hodge and Kuga–Satake results for all projective K3 surfaces",
-      "description": "Proves the rational Hodge conjecture for every complex CM abelian variety, in every dimension and codimension. Through Milne's theorems, this also gives the Tate conjecture for all abelian varieties over finite fields and the Hodge standard conjecture for abelian varieties in every characteristic. Companion results prove rational Hodge for arbitrary products of projective complex K3 surfaces and algebraicity of the Kuga–Satake correspondence for every such surface.",
+      "title": "The rational Hodge conjecture for CM abelian varieties",
+      "description": "Proves the rational Hodge conjecture for every complex CM abelian variety, in every dimension and codimension. Through Milne's theorems, this also gives the Tate conjecture for all abelian varieties over finite fields and the Hodge standard conjecture for abelian varieties in every characteristic.",
       "discipline": "Algebraic and complex geometry"
     },
     {
@@ -386,7 +386,7 @@
     {
       "id": "066",
       "title": "Bounded klt complements for Fano contractions",
-      "description": "Proves the finite-rational-coefficient form of Shokurov’s bounded-klt-complement conjecture for ϵ-lc complex Fano-type pairs with nef anti-log-canonical divisor. For ϵ-lc Fano contractions over any algebraically closed characteristic-zero field, it gives klt complements near every base point, with index bounded only by dimension and positive rational ϵ.",
+      "description": "Proves the finite-rational-coefficient form of Shokurov’s bounded-klt-complement conjecture for ϵ-lc complex Fano-type pairs with nef anti-log-canonical divisor. For ϵ-lc Fano contractions over any algebraically closed characteristic-zero field, it gives klt complements near every base point, with index bounded only by dimension and positive rational ϵ. ([Lean](lean/docs/066.md))",
       "discipline": "Algebraic and complex geometry"
     },
     {
@@ -434,7 +434,7 @@
     {
       "id": "075",
       "title": "The $L\\log L$ Fourier-convergence conjecture",
-      "description": "Proves that the ordinary symmetric Fourier partial sums of every complex-valued function in $L\\log L(\\mathbb T)$ converge almost everywhere along the full sequence. This resolves the classical sufficiency conjecture at the $L\\log L$ scale.",
+      "description": "Proves that the ordinary symmetric Fourier partial sums of every complex-valued function in $L\\log L(\\mathbb T)$ converge almost everywhere along the full sequence. This resolves the classical sufficiency conjecture at the $L\\log L$ scale. ([Lean](lean/docs/075.md))",
       "discipline": "Real and complex analysis"
     },
     {
@@ -602,7 +602,7 @@
     {
       "id": "103",
       "title": "Exact derandomization of logarithmic space: $\\mathsf L=\\mathsf{RL}=\\mathsf{BPL}$",
-      "description": "Proves $\\mathsf L=\\mathsf{RL}=\\mathsf{BPL}$, resolving derandomization for bounded-error logarithmic-space computation. An effective compiler converts each randomized polynomial-time logarithmic-space machine deciding a language with one-sided or two-sided error into a deterministic logarithmic-space decider with explicit polynomial running-time bounds.",
+      "description": "Proves $\\mathsf L=\\mathsf{RL}=\\mathsf{BPL}$, resolving derandomization for bounded-error logarithmic-space computation. An effective compiler converts each randomized polynomial-time logarithmic-space machine deciding a language with one-sided or two-sided error into a deterministic logarithmic-space decider with explicit polynomial running-time bounds. ([Lean](lean/docs/103.md))",
       "discipline": "Theoretical computer science"
     },
     {
@@ -800,7 +800,7 @@
     {
       "id": "137",
       "title": "One-tape time simulation in two-fifths-power space",
-      "description": "Determines the halting and finite-control outcome of a fixed deterministic one-writable-tape machine up to time T using $O(T^{2/5}\\log^C(T+2))$ space, improving the square-root exponent. Heads move at most one cell per step; finitely many read-only input heads are allowed. Initial contents are independent of T, and contents and input symbols have polylogarithmic-space access. Simulation time is unrestricted.",
+      "description": "Determines the halting and finite-control outcome of a fixed deterministic one-writable-tape machine up to time T using $O(T^{2/5}\\log^C(T+2))$ space, improving the square-root exponent. Heads move at most one cell per step; finitely many read-only input heads are allowed. Initial contents are independent of T, and contents and input symbols have polylogarithmic-space access. Simulation time is unrestricted. ([Lean](lean/docs/137.md))",
       "discipline": "Theoretical computer science"
     },
     {
@@ -1142,7 +1142,7 @@
     {
       "id": "195",
       "title": "A counterexample to the small Cohen–Macaulay module conjecture",
-      "description": "Constructs a three-dimensional complete Noetherian normal local domain over ℂ with no nonzero finitely generated maximal Cohen–Macaulay module. A three-dimensional local domain essentially of finite type over ℂ has the same property, disproving the domain form of the small Cohen–Macaulay module conjecture.",
+      "description": "Constructs a three-dimensional complete Noetherian normal local domain over ℂ with no nonzero finitely generated maximal Cohen–Macaulay module. A three-dimensional local domain essentially of finite type over ℂ has the same property, disproving the domain form of the small Cohen–Macaulay module conjecture. ([Lean](lean/docs/195.md))",
       "discipline": "Algebra"
     },
     {
@@ -1778,7 +1778,7 @@
     {
       "id": "301",
       "title": "Trace cones and Razak–Jacelon stabilization",
-      "description": "Classifies separable nuclear complex C^{∗}-algebras after tensoring with the Razak–Jacelon algebra and the compact operators, using their full topological cones of extended lower-semicontinuous tracial weights. This answers Robert’s trace-cone question, including algebras with arbitrary ideal structure and both finite and infinite subquotients.",
+      "description": "Classifies separable nuclear complex C^{∗}-algebras after tensoring with the Razak–Jacelon algebra and the compact operators, using their full topological cones of extended lower-semicontinuous tracial weights. This answers Robert’s trace-cone question, including algebras with arbitrary ideal structure and both finite and infinite subquotients. ([Lean](lean/docs/301.md))",
       "discipline": "Operator algebras"
     },
     {
@@ -2240,46 +2240,46 @@
   ],
   "papers": [
     {
-      "slug": "Milnes-rationality-conjecture-for-abelian-varieties-September-23-2026",
+      "slug": "Milnes-rationality-conjecture-for-abelian-varieties-October-7-2026",
       "title": "Milne's rationality conjecture for abelian varieties",
-      "date": "2026-09-23",
+      "date": "2026-10-07",
       "family": "001",
       "abstract": "We prove Milne's rationality conjecture for abelian varieties, including residue characteristic 2. After good reduction, the pairing of a rational Hodge class with any complementary product of divisor classes on the reduction is the same rational number in every prime-to-p realization and in crystalline cohomology. Using the Hodge theorem for CM abelian varieties, we also show that every such specialized Hodge class is represented by a single rational algebraic cycle in all these realizations.",
-      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/Milnes-rationality-conjecture-for-abelian-varieties-September-23-2026/paper.pdf",
-      "dirUrl": "https://github.com/openai/math/tree/main/preprints/Milnes-rationality-conjecture-for-abelian-varieties-September-23-2026",
+      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/Milnes-rationality-conjecture-for-abelian-varieties-October-7-2026/paper.pdf",
+      "dirUrl": "https://github.com/openai/math/tree/main/preprints/Milnes-rationality-conjecture-for-abelian-varieties-October-7-2026",
       "formalized": false,
       "leanUrl": null
     },
     {
-      "slug": "Exact-Birch-Swinnerton-Dyer-Formula-from-Low-Selmer-Corank-October-3-2026",
+      "slug": "Exact-Birch-Swinnerton-Dyer-Formula-from-Low-Selmer-Corank-October-7-2026",
       "title": "Exact Birch–Swinnerton-Dyer Formula from Low Selmer Corank",
-      "date": "2026-10-03",
+      "date": "2026-10-07",
       "family": "002",
       "abstract": "We prove the full Birch–Swinnerton-Dyer leading-term formula for every elliptic curve over ℚ whose full q-power Selmer group has corank zero or one at some prime q. The analytic and Mordell–Weil ranks equal that corank, and the Tate–Shafarevich group is finite. The formula includes all prime factors and requires no additional hypotheses on reduction, rational torsion, isogenies, complex multiplication, or residual Galois representations.",
-      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/Exact-Birch-Swinnerton-Dyer-Formula-from-Low-Selmer-Corank-October-3-2026/exact-bsd-low-selmer-corank.pdf",
-      "dirUrl": "https://github.com/openai/math/tree/main/preprints/Exact-Birch-Swinnerton-Dyer-Formula-from-Low-Selmer-Corank-October-3-2026",
+      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/Exact-Birch-Swinnerton-Dyer-Formula-from-Low-Selmer-Corank-October-7-2026/exact-bsd-low-selmer-corank.pdf",
+      "dirUrl": "https://github.com/openai/math/tree/main/preprints/Exact-Birch-Swinnerton-Dyer-Formula-from-Low-Selmer-Corank-October-7-2026",
       "formalized": false,
       "leanUrl": null
     },
     {
-      "slug": "The-Selmer-converse-for-elliptic-curves-at-every-prime-September-24-2026",
+      "slug": "The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026",
       "title": "The Selmer converse for elliptic curves at every prime",
-      "date": "2026-09-24",
+      "date": "2026-10-07",
       "family": "002",
       "abstract": "We prove the Selmer converse in coranks zero and one for every elliptic curve over ℚ and every prime p: if the full p-power Selmer group has ℤ_{p}-corank $r\\in\\{0,1\\}$, then the analytic and Mordell–Weil ranks both equal r, and the entire Tate–Shafarevich group is finite. As an application at the additive prime 3, we prove that for every prime $\\ell\\equiv4,7,8\\pmod9$, the cubic $X^3+Y^3=\\ell Z^3$ has analytic and Mordell–Weil rank one and finite Tate–Shafarevich group. In particular, every such ℓ is a sum of two rational cubes.",
-      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-September-24-2026/main.pdf",
-      "dirUrl": "https://github.com/openai/math/tree/main/preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-September-24-2026",
+      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026/main.pdf",
+      "dirUrl": "https://github.com/openai/math/tree/main/preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026",
       "formalized": false,
       "leanUrl": null
     },
     {
-      "slug": "The-two-primary-Birch-Swinnerton-Dyer-formula-in-Selmer-corank-at-most-one-September-24-2026",
+      "slug": "The-two-primary-Birch-Swinnerton-Dyer-formula-in-Selmer-corank-at-most-one-October-6-2026",
       "title": "The two-primary Birch–Swinnerton-Dyer formula in Selmer corank at most one",
-      "date": "2026-09-24",
+      "date": "2026-10-06",
       "family": "002",
       "abstract": "We prove the two-primary Birch and Swinnerton-Dyer leading-term formula for every elliptic curve over the rationals whose two-power Selmer group has corank at most one. In this range, the algebraic rank, analytic rank, and Selmer corank are equal, and the Tate–Shafarevich group is finite. Combined with the quadratic-twist Selmer distribution, this gives the exact two-primary formula for a density-one set of signed squarefree twists of each fixed curve, ordered by absolute value; the common rank is zero or one, with each value having density one half.",
-      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/The-two-primary-Birch-Swinnerton-Dyer-formula-in-Selmer-corank-at-most-one-September-24-2026/paper.pdf",
-      "dirUrl": "https://github.com/openai/math/tree/main/preprints/The-two-primary-Birch-Swinnerton-Dyer-formula-in-Selmer-corank-at-most-one-September-24-2026",
+      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/The-two-primary-Birch-Swinnerton-Dyer-formula-in-Selmer-corank-at-most-one-October-6-2026/paper.pdf",
+      "dirUrl": "https://github.com/openai/math/tree/main/preprints/The-two-primary-Birch-Swinnerton-Dyer-formula-in-Selmer-corank-at-most-one-October-6-2026",
       "formalized": false,
       "leanUrl": null
     },
@@ -2317,24 +2317,24 @@
       "leanUrl": "https://github.com/openai/math/blob/main/lean/docs/003.md"
     },
     {
-      "slug": "Hilberts-tenth-problem-over-the-rational-numbers-September-24-2026",
+      "slug": "Hilberts-tenth-problem-over-the-rational-numbers-October-6-2026",
       "title": "Hilbert’s tenth problem over the rational numbers",
-      "date": "2026-09-24",
+      "date": "2026-10-06",
       "family": "004",
       "abstract": "We give a negative answer to Hilbert's tenth problem over the rational numbers: no algorithm decides whether a polynomial with integer coefficients has a rational zero. The number of variables is part of the input.",
-      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/Hilberts-tenth-problem-over-the-rational-numbers-September-24-2026/main.pdf",
-      "dirUrl": "https://github.com/openai/math/tree/main/preprints/Hilberts-tenth-problem-over-the-rational-numbers-September-24-2026",
+      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/Hilberts-tenth-problem-over-the-rational-numbers-October-6-2026/main.pdf",
+      "dirUrl": "https://github.com/openai/math/tree/main/preprints/Hilberts-tenth-problem-over-the-rational-numbers-October-6-2026",
       "formalized": false,
       "leanUrl": null
     },
     {
-      "slug": "A-pointwise-2-converse-for-elliptic-curves-with-rational-two-torsion-September-24-2026",
+      "slug": "A-pointwise-2-converse-for-elliptic-curves-with-rational-two-torsion-October-7-2026",
       "title": "A pointwise 2-converse for elliptic curves with rational two-torsion",
-      "date": "2026-09-24",
+      "date": "2026-10-07",
       "family": "004",
       "abstract": "We prove a pointwise 2-converse for elliptic curves over $\\mathbf Q$ with nonzero rational two-torsion: if the $2^\\infty$-Selmer corank is zero or one, then the analytic rank and Mordell–Weil rank equal that corank, and the Shafarevich–Tate group is finite. The result allows arbitrary reduction at 2.",
-      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/A-pointwise-2-converse-for-elliptic-curves-with-rational-two-torsion-September-24-2026/paper.pdf",
-      "dirUrl": "https://github.com/openai/math/tree/main/preprints/A-pointwise-2-converse-for-elliptic-curves-with-rational-two-torsion-September-24-2026",
+      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/A-pointwise-2-converse-for-elliptic-curves-with-rational-two-torsion-October-7-2026/paper.pdf",
+      "dirUrl": "https://github.com/openai/math/tree/main/preprints/A-pointwise-2-converse-for-elliptic-curves-with-rational-two-torsion-October-7-2026",
       "formalized": false,
       "leanUrl": null
     },
@@ -2350,24 +2350,24 @@
       "leanUrl": "https://github.com/openai/math/blob/main/lean/docs/005.md"
     },
     {
-      "slug": "Goldfelds-analytic-density-conjecture-and-the-2-converse-for-elliptic-curves-September-23-2026",
+      "slug": "Goldfelds-analytic-density-conjecture-and-the-2-converse-for-elliptic-curves-October-7-2026",
       "title": "Goldfeld's analytic density conjecture and the 2-converse for elliptic curves",
-      "date": "2026-09-23",
+      "date": "2026-10-07",
       "family": "006",
       "abstract": "We prove Goldfeld's analytic density conjecture: for every elliptic curve E over ℚ, the quadratic twists of E with analytic rank zero and one each have density 1/2 among signed squarefree twist parameters ordered by absolute value. We also prove the low-corank 2-converse: if the $2^\\infty$-Selmer corank of E is zero or one, then it equals the analytic and Mordell–Weil ranks, and the Tate–Shafarevich group is finite.",
-      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/Goldfelds-analytic-density-conjecture-and-the-2-converse-for-elliptic-curves-September-23-2026/paper.pdf",
-      "dirUrl": "https://github.com/openai/math/tree/main/preprints/Goldfelds-analytic-density-conjecture-and-the-2-converse-for-elliptic-curves-September-23-2026",
+      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/Goldfelds-analytic-density-conjecture-and-the-2-converse-for-elliptic-curves-October-7-2026/paper.pdf",
+      "dirUrl": "https://github.com/openai/math/tree/main/preprints/Goldfelds-analytic-density-conjecture-and-the-2-converse-for-elliptic-curves-October-7-2026",
       "formalized": false,
       "leanUrl": null
     },
     {
-      "slug": "The-mean-analytic-rank-of-quadratic-twists-of-elliptic-curves-September-23-2026",
+      "slug": "The-mean-analytic-rank-of-quadratic-twists-of-elliptic-curves-October-6-2026",
       "title": "The mean analytic rank of quadratic twists of elliptic curves",
-      "date": "2026-09-23",
+      "date": "2026-10-06",
       "family": "006",
       "abstract": "For every elliptic curve over ℚ, we prove that the average analytic rank of its quadratic twists tends to 1/2 when signed squarefree twist parameters are ordered by absolute value. This resolves Goldfeld's mean analytic-rank conjecture in this counting convention.",
-      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/The-mean-analytic-rank-of-quadratic-twists-of-elliptic-curves-September-23-2026/paper.pdf",
-      "dirUrl": "https://github.com/openai/math/tree/main/preprints/The-mean-analytic-rank-of-quadratic-twists-of-elliptic-curves-September-23-2026",
+      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/The-mean-analytic-rank-of-quadratic-twists-of-elliptic-curves-October-6-2026/paper.pdf",
+      "dirUrl": "https://github.com/openai/math/tree/main/preprints/The-mean-analytic-rank-of-quadratic-twists-of-elliptic-curves-October-6-2026",
       "formalized": false,
       "leanUrl": null
     },
@@ -2427,13 +2427,13 @@
       "leanUrl": "https://github.com/openai/math/blob/main/lean/docs/009.md"
     },
     {
-      "slug": "Unrestricted-pro-modularity-at-the-prime-two-October-4-2026",
+      "slug": "Unrestricted-pro-modularity-at-the-prime-two-October-6-2026",
       "title": "Unrestricted pro-modularity at the prime two",
-      "date": "2026-10-04",
+      "date": "2026-10-06",
       "family": "010",
       "abstract": "Every continuous, odd, absolutely irreducible two-dimensional 2-adic representation of $G_{\\mathbb Q}$ that is unramified outside finitely many finite primes occurs in the full completed Hecke algebra at some odd tame level. The level may contain auxiliary tame primes, and scalar and reducible residual representations are included. This is a completed-Hecke occurrence result, with no de Rham hypothesis; it does not assert classical modularity.",
-      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/Unrestricted-pro-modularity-at-the-prime-two-October-4-2026/two-adic-promodularity.pdf",
-      "dirUrl": "https://github.com/openai/math/tree/main/preprints/Unrestricted-pro-modularity-at-the-prime-two-October-4-2026",
+      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/Unrestricted-pro-modularity-at-the-prime-two-October-6-2026/two-adic-promodularity.pdf",
+      "dirUrl": "https://github.com/openai/math/tree/main/preprints/Unrestricted-pro-modularity-at-the-prime-two-October-6-2026",
       "formalized": false,
       "leanUrl": null
     },
@@ -2449,13 +2449,13 @@
       "leanUrl": null
     },
     {
-      "slug": "Fontaine-Mazur-modularity-at-the-prime-2-September-23-2026",
+      "slug": "Fontaine-Mazur-modularity-at-the-prime-2-October-6-2026",
       "title": "Fontaine–Mazur modularity at the prime 2",
-      "date": "2026-09-23",
+      "date": "2026-10-06",
       "family": "010",
       "abstract": "We prove that every continuous, irreducible, odd two-dimensional 2-adic representation of $G_{\\mathbb Q}$, unramified outside finitely many primes and de Rham at 2 with distinct Hodge–Tate weights, is modular up to Tate twist. This resolves the odd, regular two-dimensional Fontaine–Mazur conjecture over ℚ at 2, including all residual representations.",
-      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/Fontaine-Mazur-modularity-at-the-prime-2-September-23-2026/paper.pdf",
-      "dirUrl": "https://github.com/openai/math/tree/main/preprints/Fontaine-Mazur-modularity-at-the-prime-2-September-23-2026",
+      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/Fontaine-Mazur-modularity-at-the-prime-2-October-6-2026/paper.pdf",
+      "dirUrl": "https://github.com/openai/math/tree/main/preprints/Fontaine-Mazur-modularity-at-the-prime-2-October-6-2026",
       "formalized": false,
       "leanUrl": null
     },
@@ -2724,13 +2724,13 @@
       "leanUrl": null
     },
     {
-      "slug": "The-p-adic-section-conjecture-September-24-2026",
+      "slug": "The-p-adic-section-conjecture-October-6-2026",
       "title": "The p-adic section conjecture",
-      "date": "2026-09-24",
+      "date": "2026-10-06",
       "family": "019",
       "abstract": "We prove the local p-adic section conjecture for smooth proper geometrically connected curves of genus at least two, over every finite extension of ℚ_{p}. Combined with established finite-descent theorems, this also yields the global section conjecture for smooth proper geometrically connected curves of genus at least two over number fields when their finite-cover descent locus equals their rational points; this includes $X_0(N)$ and $X_1(N)$ of genus at least two over ℚ.",
-      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/The-p-adic-section-conjecture-September-24-2026/main.pdf",
-      "dirUrl": "https://github.com/openai/math/tree/main/preprints/The-p-adic-section-conjecture-September-24-2026",
+      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/The-p-adic-section-conjecture-October-6-2026/main.pdf",
+      "dirUrl": "https://github.com/openai/math/tree/main/preprints/The-p-adic-section-conjecture-October-6-2026",
       "formalized": false,
       "leanUrl": null
     },
@@ -2819,8 +2819,8 @@
       "abstract": "We prove potential Zariski density of integral points on SL_{r}-character varieties of smooth complex curves in every rank. The result allows prescribed quasi-unipotent boundary monodromy, including exact nonsemisimple conjugacy classes, and holds on every component over the full ring of integers of one finite extension. Here integrality is measured in the ambient character variety, while the exact boundary conditions are imposed on the complex representation.",
       "pdfUrl": "https://github.com/openai/math/blob/main/preprints/Integral-points-on-character-varieties-of-curves-September-25-2026/paper.pdf",
       "dirUrl": "https://github.com/openai/math/tree/main/preprints/Integral-points-on-character-varieties-of-curves-September-25-2026",
-      "formalized": false,
-      "leanUrl": null
+      "formalized": true,
+      "leanUrl": "https://github.com/openai/math/blob/main/lean/docs/027.md"
     },
     {
       "slug": "Bounded-Step-Walks-on-Gaussian-Primes-September-26-2026",
@@ -2878,35 +2878,13 @@
       "leanUrl": null
     },
     {
-      "slug": "The-rational-Hodge-conjecture-for-products-of-K3-surfaces-October-4-2026",
-      "title": "The rational Hodge conjecture for products of K3 surfaces",
-      "date": "2026-10-04",
-      "family": "032",
-      "abstract": "We prove the rational Hodge conjecture for every finite product of projective complex K3 surfaces: every rational Hodge class is algebraic. The factors may be distinct or repeated, with no restrictions on their Picard numbers, periods, or endomorphism fields.",
-      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/The-rational-Hodge-conjecture-for-products-of-K3-surfaces-October-4-2026/hodge-conjecture-products-k3.pdf",
-      "dirUrl": "https://github.com/openai/math/tree/main/preprints/The-rational-Hodge-conjecture-for-products-of-K3-surfaces-October-4-2026",
-      "formalized": false,
-      "leanUrl": null
-    },
-    {
-      "slug": "Algebraicity-of-Kuga-Satake-Correspondences-for-K3-Surfaces-October-3-2026",
-      "title": "Algebraicity of Kuga–Satake Correspondences for K3 Surfaces",
-      "date": "2026-10-03",
-      "family": "032",
-      "abstract": "We prove that the Kuga–Satake correspondence is algebraic for every smooth projective complex K3 surface. More precisely, the prescribed embedding of its transcendental cohomology into the cohomology of its Kuga–Satake abelian variety is induced by a rational algebraic cycle, with the fixed normalization and full even-Clifford target. The result also holds for isogenous Kuga–Satake models with the transported embedding.",
-      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/Algebraicity-of-Kuga-Satake-Correspondences-for-K3-Surfaces-October-3-2026/manuscript.pdf",
-      "dirUrl": "https://github.com/openai/math/tree/main/preprints/Algebraicity-of-Kuga-Satake-Correspondences-for-K3-Surfaces-October-3-2026",
-      "formalized": false,
-      "leanUrl": null
-    },
-    {
-      "slug": "The-rational-Hodge-conjecture-for-CM-abelian-varieties-September-30-2026",
+      "slug": "The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026",
       "title": "The rational Hodge conjecture for CM abelian varieties",
-      "date": "2026-09-30",
+      "date": "2026-10-06",
       "family": "032",
       "abstract": "We prove the rational Hodge conjecture for complex abelian varieties with complex multiplication: every rational Hodge class on such a variety is a rational linear combination of algebraic cycle classes. As consequences, we obtain the generalized Hodge conjecture for CM abelian varieties, the Tate conjecture for abelian varieties over finite fields, and the Hodge standard conjecture for abelian varieties in arbitrary characteristic.",
-      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/The-rational-Hodge-conjecture-for-CM-abelian-varieties-September-30-2026/paper.pdf",
-      "dirUrl": "https://github.com/openai/math/tree/main/preprints/The-rational-Hodge-conjecture-for-CM-abelian-varieties-September-30-2026",
+      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/paper.pdf",
+      "dirUrl": "https://github.com/openai/math/tree/main/preprints/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026",
       "formalized": false,
       "leanUrl": null
     },
@@ -2922,35 +2900,24 @@
       "leanUrl": null
     },
     {
-      "slug": "Weil-classes-and-Hodge-classes-on-abelian-powers-September-30-2026",
+      "slug": "Weil-classes-and-Hodge-classes-on-abelian-powers-October-6-2026",
       "title": "Weil classes and Hodge classes on abelian powers",
-      "date": "2026-09-30",
+      "date": "2026-10-06",
       "family": "032",
       "abstract": "We prove the rational Hodge conjecture in every codimension on every self-power of a complex abelian sixfold with an imaginary-quadratic action and a compatible polarization whose rational homological Hermitian form is hyperbolic of signature $(3,3)$. We also prove it in every codimension on every self-power of a complex abelian variety of dimension at most five admitting an imaginary-quadratic action. Both results include nonsimple varieties and special periods with additional endomorphisms. The proof uses the companion theorem on the rational Hodge conjecture for CM abelian varieties.",
-      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/Weil-classes-and-Hodge-classes-on-abelian-powers-September-30-2026/paper.pdf",
-      "dirUrl": "https://github.com/openai/math/tree/main/preprints/Weil-classes-and-Hodge-classes-on-abelian-powers-September-30-2026",
+      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/Weil-classes-and-Hodge-classes-on-abelian-powers-October-6-2026/paper.pdf",
+      "dirUrl": "https://github.com/openai/math/tree/main/preprints/Weil-classes-and-Hodge-classes-on-abelian-powers-October-6-2026",
       "formalized": false,
       "leanUrl": null
     },
     {
-      "slug": "Abelian-covers-Gale-correspondences-and-the-Hodge-conjecture-for-powers-September-30-2026",
+      "slug": "Abelian-covers-Gale-correspondences-and-the-Hodge-conjecture-for-powers-October-6-2026",
       "title": "Abelian covers, Gale correspondences, and the Hodge conjecture for powers",
-      "date": "2026-09-30",
+      "date": "2026-10-06",
       "family": "032",
       "abstract": "We prove the rational Hodge conjecture on every self-power of the Jacobian at each tensor Hodge-generic point of the full marked variation of a connected abelian cover of curves. This holds in every base genus and for every compatible branching pattern. For any CM abelian variety, the conclusion also holds for every self-power of its product with the Jacobian, on the same Hodge-generic locus. We also prove the conjecture on every self-power of a very general member of the full smooth labelled family of diagonal complete intersections cut out by at most two equations of a common degree, in every dimension and every degree at least two.",
-      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/Abelian-covers-Gale-correspondences-and-the-Hodge-conjecture-for-powers-September-30-2026/paper.pdf",
-      "dirUrl": "https://github.com/openai/math/tree/main/preprints/Abelian-covers-Gale-correspondences-and-the-Hodge-conjecture-for-powers-September-30-2026",
-      "formalized": false,
-      "leanUrl": null
-    },
-    {
-      "slug": "Algebraicity-of-Weil-classes-on-split-abelian-eightfolds-September-18-2026",
-      "title": "Algebraicity of Weil classes on split abelian eightfolds",
-      "date": "2026-09-18",
-      "family": "032",
-      "abstract": "We prove that every rational Weil class on a split abelian eightfold of Weil type is algebraic. The result holds for every imaginary quadratic field, every compatible polarization type, and every member of the split family, including those with additional endomorphisms. Thus the full two-dimensional rational Weil space in codimension four is generated by algebraic cycle classes.",
-      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/Algebraicity-of-Weil-classes-on-split-abelian-eightfolds-September-18-2026/paper.pdf",
-      "dirUrl": "https://github.com/openai/math/tree/main/preprints/Algebraicity-of-Weil-classes-on-split-abelian-eightfolds-September-18-2026",
+      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/Abelian-covers-Gale-correspondences-and-the-Hodge-conjecture-for-powers-October-6-2026/paper.pdf",
+      "dirUrl": "https://github.com/openai/math/tree/main/preprints/Abelian-covers-Gale-correspondences-and-the-Hodge-conjecture-for-powers-October-6-2026",
       "formalized": false,
       "leanUrl": null
     },
@@ -3021,13 +2988,13 @@
       "leanUrl": null
     },
     {
-      "slug": "Log-abundance-for-compact-Kahler-spaces-under-logarithmic-Iitaka-subadditivity-October-4-2026",
+      "slug": "Log-abundance-for-compact-Kahler-spaces-under-logarithmic-Iitaka-subadditivity-October-6-2026",
       "title": "Log abundance for compact Kähler spaces under logarithmic Iitaka subadditivity",
-      "date": "2026-10-04",
+      "date": "2026-10-06",
       "family": "034",
       "abstract": "Assume logarithmic Iitaka subadditivity for surjective morphisms with connected fibers between smooth projective complex varieties with compatible reduced simple normal crossing boundaries. We prove log abundance for normal irreducible compact Kähler spaces in every dimension: for a log canonical pair $(X,\\Delta)$ with effective rational boundary and $K_X+\\Delta$ ℚ-Cartier, analytic nefness of $K_X+\\Delta$ implies semiampleness.",
-      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/Log-abundance-for-compact-Kahler-spaces-under-logarithmic-Iitaka-subadditivity-October-4-2026/main.pdf",
-      "dirUrl": "https://github.com/openai/math/tree/main/preprints/Log-abundance-for-compact-Kahler-spaces-under-logarithmic-Iitaka-subadditivity-October-4-2026",
+      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/Log-abundance-for-compact-Kahler-spaces-under-logarithmic-Iitaka-subadditivity-October-6-2026/main.pdf",
+      "dirUrl": "https://github.com/openai/math/tree/main/preprints/Log-abundance-for-compact-Kahler-spaces-under-logarithmic-Iitaka-subadditivity-October-6-2026",
       "formalized": false,
       "leanUrl": null
     },
@@ -3043,13 +3010,13 @@
       "leanUrl": null
     },
     {
-      "slug": "Conditional-good-minimal-models-for-compact-Kahler-fourfolds-October-5-2026",
+      "slug": "Conditional-good-minimal-models-for-compact-Kahler-fourfolds-October-6-2026",
       "title": "Conditional good minimal models for compact Kähler fourfolds",
-      "date": "2026-10-05",
+      "date": "2026-10-06",
       "family": "034",
-      "abstract": "Assuming orbifold Iitaka subadditivity, the specified pseudo-effective fourfold minimal model program, and abundance for nef fourfold adjoints of nonnegative Kodaira dimension, we prove the existence of good minimal models for globally strongly ℚ-factorial compact Kähler klt fourfold pairs with effective rational boundary and analytically pseudo-effective actual ℚ-Cartier adjoint. The additional step is nonvanishing. We prove it by fibration arguments and, in algebraic dimension zero, by singular metrics, holomorphic foliations, and extension from a reduced boundary. The projective abundance argument used in the proof is included in full.",
-      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/Conditional-good-minimal-models-for-compact-Kahler-fourfolds-October-5-2026/paper.pdf",
-      "dirUrl": "https://github.com/openai/math/tree/main/preprints/Conditional-good-minimal-models-for-compact-Kahler-fourfolds-October-5-2026",
+      "abstract": "Assuming orbifold Iitaka subadditivity and abundance for nef fourfold adjoints of nonnegative Kodaira dimension, we prove the existence of good minimal models for globally strongly ℚ-factorial compact Kähler klt fourfold pairs with effective rational boundary and analytically pseudo-effective actual ℚ-Cartier adjoint. The ordinary fourfold minimal model program supplies the nef endpoint. We prove nonvanishing by fibration arguments and, in algebraic dimension zero, by singular metrics, holomorphic foliations, and extension from a reduced boundary. The projective abundance argument used in the proof is included in full.",
+      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/Conditional-good-minimal-models-for-compact-Kahler-fourfolds-October-6-2026/paper.pdf",
+      "dirUrl": "https://github.com/openai/math/tree/main/preprints/Conditional-good-minimal-models-for-compact-Kahler-fourfolds-October-6-2026",
       "formalized": false,
       "leanUrl": null
     },
@@ -3197,13 +3164,13 @@
       "leanUrl": null
     },
     {
-      "slug": "Numerical-semiampleness-of-nef-adjoint-classes-on-compact-Kahler-manifolds-October-4-2026",
+      "slug": "Numerical-semiampleness-of-nef-adjoint-classes-on-compact-Kahler-manifolds-October-6-2026",
       "title": "Numerical semiampleness of nef adjoint classes on compact Kähler manifolds",
-      "date": "2026-10-04",
+      "date": "2026-10-06",
       "family": "036",
       "abstract": "Let X be a smooth connected compact Kähler manifold, let B be an effective rational simple normal crossing divisor with coefficients less than one, and let M be a nef rational holomorphic line bundle on X. If $K_X+B$ is pseudo-effective and $K_X+B+M$ is nef, we prove that its first Chern class in real Bott–Chern cohomology is represented by a semiample rational line bundle. This numerical statement allows a flat change of line bundle; it does not assert semiampleness of the original adjoint.",
-      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/Numerical-semiampleness-of-nef-adjoint-classes-on-compact-Kahler-manifolds-October-4-2026/numerical-generalized-abundance.pdf",
-      "dirUrl": "https://github.com/openai/math/tree/main/preprints/Numerical-semiampleness-of-nef-adjoint-classes-on-compact-Kahler-manifolds-October-4-2026",
+      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/Numerical-semiampleness-of-nef-adjoint-classes-on-compact-Kahler-manifolds-October-6-2026/numerical-generalized-abundance.pdf",
+      "dirUrl": "https://github.com/openai/math/tree/main/preprints/Numerical-semiampleness-of-nef-adjoint-classes-on-compact-Kahler-manifolds-October-6-2026",
       "formalized": false,
       "leanUrl": null
     },
@@ -3435,8 +3402,8 @@
       "abstract": "We construct an explicit degree-five polynomial over $\\mathbf C$ that is not a coordinate in four variables but becomes one after adjoining a single variable. This gives a counterexample to the stable coordinate conjecture in four variables. Every fiber is isomorphic to affine three-space, yet its embedding in affine four-space is not rectifiable. Thus the example also disproves the Abhyankar–Sathaye embedding conjecture in ambient dimension four.",
       "pdfUrl": "https://github.com/openai/math/blob/main/preprints/A-stable-coordinate-that-is-not-a-coordinate-in-four-variables-October-5-2026/stable-coordinate-four-variables.pdf",
       "dirUrl": "https://github.com/openai/math/tree/main/preprints/A-stable-coordinate-that-is-not-a-coordinate-in-four-variables-October-5-2026",
-      "formalized": false,
-      "leanUrl": null
+      "formalized": true,
+      "leanUrl": "https://github.com/openai/math/blob/main/lean/docs/049.md"
     },
     {
       "slug": "An-explicit-noncoordinate-polynomial-with-affine-three-space-zero-fibre-September-24-2026",
@@ -3538,24 +3505,24 @@
       "leanUrl": null
     },
     {
-      "slug": "Termination-of-generalized-log-canonical-flips-on-compact-Kahler-fourfolds-October-5-2026",
+      "slug": "Termination-of-generalized-log-canonical-flips-on-compact-Kahler-fourfolds-October-7-2026",
       "title": "Termination of generalized log canonical flips on compact Kähler fourfolds",
-      "date": "2026-10-05",
+      "date": "2026-10-07",
       "family": "056",
       "abstract": "Every sequence of generalized log canonical flips on a normal irreducible globally Weil ℚ-factorial compact Kähler fourfold terminates, provided the flips are projective small diagrams with the stated opposite ample signs. The boundary is rational, and the nef b-divisor is fixed and represented by an analytically nef ℚ-Cartier divisor on a projective modification. No scaling rule or pseudo-effectivity assumption is required. The theorem concerns existing flip sequences; it does not assert the existence of all contractions or flips.",
-      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/Termination-of-generalized-log-canonical-flips-on-compact-Kahler-fourfolds-October-5-2026/termination-generalized-lc-kahler-fourfolds.pdf",
-      "dirUrl": "https://github.com/openai/math/tree/main/preprints/Termination-of-generalized-log-canonical-flips-on-compact-Kahler-fourfolds-October-5-2026",
+      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/Termination-of-generalized-log-canonical-flips-on-compact-Kahler-fourfolds-October-7-2026/termination-generalized-lc-kahler-fourfolds.pdf",
+      "dirUrl": "https://github.com/openai/math/tree/main/preprints/Termination-of-generalized-log-canonical-flips-on-compact-Kahler-fourfolds-October-7-2026",
       "formalized": false,
       "leanUrl": null
     },
     {
-      "slug": "Termination-of-generalized-canonical-flips-on-compact-Kahler-fourfolds-October-5-2026",
+      "slug": "Termination-of-generalized-canonical-flips-on-compact-Kahler-fourfolds-October-6-2026",
       "title": "Termination of generalized-canonical flips on compact Kähler fourfolds",
-      "date": "2026-10-05",
+      "date": "2026-10-06",
       "family": "056",
       "abstract": "Every sequence of generalized-canonical flips on compact Kähler fourfolds with rational boundary and fixed rational analytically nef b-divisor terminates when the small morphisms are projective. We prove this for normal globally Weil ℚ-factorial models with boundary coefficients less than one, allowing exceptional log discrepancies equal to one. No scaling rule or pseudo-effectivity assumption is required. The theorem applies to existing projective small diagrams with the specified opposite ample signs.",
-      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/Termination-of-generalized-canonical-flips-on-compact-Kahler-fourfolds-October-5-2026/termination-generalized-terminal-flips-compact-kahler-fourfolds.pdf",
-      "dirUrl": "https://github.com/openai/math/tree/main/preprints/Termination-of-generalized-canonical-flips-on-compact-Kahler-fourfolds-October-5-2026",
+      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/Termination-of-generalized-canonical-flips-on-compact-Kahler-fourfolds-October-6-2026/termination-generalized-terminal-flips-compact-kahler-fourfolds.pdf",
+      "dirUrl": "https://github.com/openai/math/tree/main/preprints/Termination-of-generalized-canonical-flips-on-compact-Kahler-fourfolds-October-6-2026",
       "formalized": false,
       "leanUrl": null
     },
@@ -3571,13 +3538,13 @@
       "leanUrl": null
     },
     {
-      "slug": "Finite-ordinary-minimal-model-programs-on-compact-Kahler-fourfolds-October-5-2026",
+      "slug": "Finite-ordinary-minimal-model-programs-on-compact-Kahler-fourfolds-October-6-2026",
       "title": "Finite ordinary minimal model programs on compact Kähler fourfolds",
-      "date": "2026-10-05",
+      "date": "2026-10-06",
       "family": "056",
       "abstract": "We prove that every maximal ordinary negative-ray program starting from a compact Kähler klt fourfold pair with effective rational boundary in the global Weil-divisor ℚ-factorial category terminates. It ends at a nef model when the adjoint is pseudo-effective and at a projective Mori fibre space otherwise.",
-      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/Finite-ordinary-minimal-model-programs-on-compact-Kahler-fourfolds-October-5-2026/paper.pdf",
-      "dirUrl": "https://github.com/openai/math/tree/main/preprints/Finite-ordinary-minimal-model-programs-on-compact-Kahler-fourfolds-October-5-2026",
+      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/Finite-ordinary-minimal-model-programs-on-compact-Kahler-fourfolds-October-6-2026/paper.pdf",
+      "dirUrl": "https://github.com/openai/math/tree/main/preprints/Finite-ordinary-minimal-model-programs-on-compact-Kahler-fourfolds-October-6-2026",
       "formalized": false,
       "leanUrl": null
     },
@@ -3754,8 +3721,8 @@
       "abstract": "We prove the Cartier-divisor conjecture of Birkar and Shokurov for rational boundaries in characteristic zero and for real boundaries over ℂ. For an ϵ-lc Fano type contraction with positive-dimensional base and nef negative log canonical class, a Cartier divisor through any prescribed base point can be chosen with pullback log canonical threshold bounded below in terms of the dimension and ϵ alone.",
       "pdfUrl": "https://github.com/openai/math/blob/main/preprints/Uniform-Cartier-sections-for-Fano-type-contractions-September-25-2026/Uniform-Cartier-sections-for-Fano-type-contractions-September-25-2026.pdf",
       "dirUrl": "https://github.com/openai/math/tree/main/preprints/Uniform-Cartier-sections-for-Fano-type-contractions-September-25-2026",
-      "formalized": false,
-      "leanUrl": null
+      "formalized": true,
+      "leanUrl": "https://github.com/openai/math/blob/main/lean/docs/066.md"
     },
     {
       "slug": "The-Campana-Peternell-conjecture-in-dimension-six-September-25-2026",
@@ -3941,8 +3908,8 @@
       "abstract": "We prove that the ordinary symmetric Fourier partial sums of every complex-valued function in $L\\log L$ on the circle converge almost everywhere to the function along the full sequence. This establishes the classical $L\\log L$ sufficiency conjecture.",
       "pdfUrl": "https://github.com/openai/math/blob/main/preprints/Almost-everywhere-Fourier-convergence-in-L-log-L-September-23-2026/paper.pdf",
       "dirUrl": "https://github.com/openai/math/tree/main/preprints/Almost-everywhere-Fourier-convergence-in-L-log-L-September-23-2026",
-      "formalized": false,
-      "leanUrl": null
+      "formalized": true,
+      "leanUrl": "https://github.com/openai/math/blob/main/lean/docs/075.md"
     },
     {
       "slug": "Ultraflat-real-Littlewood-polynomials-October-5-2026",
@@ -4535,8 +4502,8 @@
       "abstract": "We prove $\\mathsf L=\\mathsf{RL}=\\mathsf{BPL}$, resolving the derandomization problem for polynomial-time randomized logarithmic space.",
       "pdfUrl": "https://github.com/openai/math/blob/main/preprints/Exact-Derandomization-of-Logarithmic-Space-L-equals-RL-equals-BPL-September-23-2026/paper.pdf",
       "dirUrl": "https://github.com/openai/math/tree/main/preprints/Exact-Derandomization-of-Logarithmic-Space-L-equals-RL-equals-BPL-September-23-2026",
-      "formalized": false,
-      "leanUrl": null
+      "formalized": true,
+      "leanUrl": "https://github.com/openai/math/blob/main/lean/docs/103.md"
     },
     {
       "slug": "Turn-Based-Stochastic-Mean-Payoff-Games-in-Deterministic-Quasipolynomial-Time-October-5-2026",
@@ -5008,8 +4975,8 @@
       "abstract": "We give a deterministic algorithm that computes the discrete Fourier transform at every length n in $O(n(\\log n)^{1-10^{-13}})$ operations. The model uses exact complex arithmetic, unrestricted coefficients, specified Fourier roots, and unit-cost logarithmic-size indexing; scalar preparation and array organization are included.",
       "pdfUrl": "https://github.com/openai/math/blob/main/preprints/An-explicit-power-saving-for-the-exact-discrete-Fourier-transform-September-25-2026/main.pdf",
       "dirUrl": "https://github.com/openai/math/tree/main/preprints/An-explicit-power-saving-for-the-exact-discrete-Fourier-transform-September-25-2026",
-      "formalized": false,
-      "leanUrl": null
+      "formalized": true,
+      "leanUrl": "https://github.com/openai/math/blob/main/lean/docs/130.md"
     },
     {
       "slug": "Finite-tensor-savings-and-exact-Fourier-circuits-September-25-2026",
@@ -5151,8 +5118,8 @@
       "abstract": "We show that a fixed deterministic Turing machine with one writable tape and head can be simulated in $O(T^{2/5}\\mathop{\\mathrm{polylog}}\\nolimits (T+2))$ work-space bits when a binary time cap T ≥ 2 is supplied. The simulator computes the finite-control and halting outcome by time T; its running time is unrestricted. The result allows a fixed number of read-only input heads and requires a fixed accessor that supplies every initial writable and read-only symbol within distance T of the relevant head origin in polylogarithmic space. This improves the square-root space exponent for one-tape machines, answering Williams's question for this model.",
       "pdfUrl": "https://github.com/openai/math/blob/main/preprints/Simulating-One-Tape-Time-in-Two-Fifths-Power-Space-September-25-2026/article.pdf",
       "dirUrl": "https://github.com/openai/math/tree/main/preprints/Simulating-One-Tape-Time-in-Two-Fifths-Power-Space-September-25-2026",
-      "formalized": false,
-      "leanUrl": null
+      "formalized": true,
+      "leanUrl": "https://github.com/openai/math/blob/main/lean/docs/137.md"
     },
     {
       "slug": "Subset-Sum-in-Time-2-power-0-49n-October-4-2026",
@@ -5514,8 +5481,8 @@
       "abstract": "We disprove Hadwiger's conjecture by constructing arbitrarily large graphs whose chromatic number exceeds their Hadwiger number. The examples have independence number at most two, and even their ordinary fractional chromatic number exceeds their Hadwiger number. Thus they also disprove the fractional-coloring weakening discussed by Reed and Seymour.",
       "pdfUrl": "https://github.com/openai/math/blob/main/preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/paper.pdf",
       "dirUrl": "https://github.com/openai/math/tree/main/preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026",
-      "formalized": false,
-      "leanUrl": null
+      "formalized": true,
+      "leanUrl": "https://github.com/openai/math/blob/main/lean/docs/157.md"
     },
     {
       "slug": "A-counterexample-to-the-Colin-de-Verdiere-chromatic-conjecture-September-23-2026",
@@ -6064,8 +6031,8 @@
       "abstract": "We construct a three-dimensional complete Noetherian normal local domain containing ℂ, with residue field ℂ, that has no nonzero finitely generated maximal Cohen–Macaulay module. This disproves the domain form of the small Cohen–Macaulay module conjecture.",
       "pdfUrl": "https://github.com/openai/math/blob/main/preprints/A-Complete-Local-Domain-Without-a-Small-Cohen-Macaulay-Module-September-23-2026/paper.pdf",
       "dirUrl": "https://github.com/openai/math/tree/main/preprints/A-Complete-Local-Domain-Without-a-Small-Cohen-Macaulay-Module-September-23-2026",
-      "formalized": false,
-      "leanUrl": null
+      "formalized": true,
+      "leanUrl": "https://github.com/openai/math/blob/main/lean/docs/195.md"
     },
     {
       "slug": "A-Torsion-Free-Group-Algebra-with-Zero-Divisors-September-23-2026",
@@ -7102,46 +7069,46 @@
       "leanUrl": "https://github.com/openai/math/blob/main/lean/docs/231.md"
     },
     {
-      "slug": "Gaussian-free-field-limits-of-weighted-integer-Lipschitz-heights-September-25-2026",
+      "slug": "Gaussian-free-field-limits-of-weighted-integer-Lipschitz-heights-October-6-2026",
       "title": "Gaussian free-field limits of weighted integer Lipschitz heights",
-      "date": "2026-09-25",
+      "date": "2026-10-06",
       "family": "232",
       "abstract": "We prove a Gaussian free field scaling limit for weighted integer Lipschitz heights on the triangular lattice. With zero boundary values and a factor x for each edge on which the height changes, the field converges after division by a positive constant depending only on x to the zero-Dirichlet Gaussian free field, for every fixed $x\\in[1/\\sqrt2,1]$. The convergence holds as a random distribution on every bounded C^{2} Jordan domain under inside lattice approximations with uniformly convergent boundary parametrizations. This includes the uniform height model and the predicted critical endpoint.",
-      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/Gaussian-free-field-limits-of-weighted-integer-Lipschitz-heights-September-25-2026/paper.pdf",
-      "dirUrl": "https://github.com/openai/math/tree/main/preprints/Gaussian-free-field-limits-of-weighted-integer-Lipschitz-heights-September-25-2026",
+      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/Gaussian-free-field-limits-of-weighted-integer-Lipschitz-heights-October-6-2026/paper.pdf",
+      "dirUrl": "https://github.com/openai/math/tree/main/preprints/Gaussian-free-field-limits-of-weighted-integer-Lipschitz-heights-October-6-2026",
       "formalized": false,
       "leanUrl": null
     },
     {
-      "slug": "The-Gaussian-free-field-limit-of-integer-Lipschitz-heights-with-two-arc-boundary-data-September-25-2026",
+      "slug": "The-Gaussian-free-field-limit-of-integer-Lipschitz-heights-with-two-arc-boundary-data-October-6-2026",
       "title": "The Gaussian free field limit of integer Lipschitz heights with two-arc boundary data",
-      "date": "2026-09-25",
+      "date": "2026-10-06",
       "family": "232",
       "abstract": "We prove that the centered uniform odd integer height function on triangular-lattice approximations of a smooth simply connected domain, with neighboring differences zero or two and boundary values +1 and −1 on two arcs, converges to a universal multiple of the Dirichlet Gaussian free field. This resolves the field part of Schramm's Problem 2.2. We give an absolutely convergent finite-volume formula for the normalization. The proof combines reflection positivity, a spectral sum rule, and boundary comparison with Gaussian moment identities.",
-      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/The-Gaussian-free-field-limit-of-integer-Lipschitz-heights-with-two-arc-boundary-data-September-25-2026/paper.pdf",
-      "dirUrl": "https://github.com/openai/math/tree/main/preprints/The-Gaussian-free-field-limit-of-integer-Lipschitz-heights-with-two-arc-boundary-data-September-25-2026",
+      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/The-Gaussian-free-field-limit-of-integer-Lipschitz-heights-with-two-arc-boundary-data-October-6-2026/paper.pdf",
+      "dirUrl": "https://github.com/openai/math/tree/main/preprints/The-Gaussian-free-field-limit-of-integer-Lipschitz-heights-with-two-arc-boundary-data-October-6-2026",
       "formalized": false,
       "leanUrl": null
     },
     {
-      "slug": "Uniform-real-Lipschitz-surfaces-on-the-triangular-lattice-September-25-2026",
+      "slug": "Uniform-real-Lipschitz-surfaces-on-the-triangular-lattice-October-6-2026",
       "title": "Uniform real Lipschitz surfaces on the triangular lattice",
-      "date": "2026-09-25",
+      "date": "2026-10-06",
       "family": "232",
       "abstract": "We prove the Gaussian free field and SLE$_4$ scaling limits for uniformly sampled real nearest-neighbor Lipschitz heights on the triangular lattice, resolving Schramm's Problem 2.3. On approximations of smooth simply connected domains, the centered height field converges as a random distribution to a multiple of the Dirichlet Gaussian free field. At one tuned two-arc boundary amplitude, the zero-height interface converges in uniform curve distance to chordal SLE$_4$. We identify the relation between the field variance and the boundary height in terms of an implicit stationary tangent-flux coefficient.",
-      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/Uniform-real-Lipschitz-surfaces-on-the-triangular-lattice-September-25-2026/paper.pdf",
-      "dirUrl": "https://github.com/openai/math/tree/main/preprints/Uniform-real-Lipschitz-surfaces-on-the-triangular-lattice-September-25-2026",
+      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/Uniform-real-Lipschitz-surfaces-on-the-triangular-lattice-October-6-2026/paper.pdf",
+      "dirUrl": "https://github.com/openai/math/tree/main/preprints/Uniform-real-Lipschitz-surfaces-on-the-triangular-lattice-October-6-2026",
       "formalized": false,
       "leanUrl": null
     },
     {
-      "slug": "The-joint-scaling-limit-of-critical-Ashkin-Teller-currents-September-25-2026",
+      "slug": "The-joint-scaling-limit-of-critical-Ashkin-Teller-currents-October-6-2026",
       "title": "The joint scaling limit of critical Ashkin-Teller currents",
-      "date": "2026-09-25",
+      "date": "2026-10-06",
       "family": "233",
       "abstract": "For each fixed point on the critical Ashkin–Teller line, including the four-state Potts endpoint, we prove the conjectured joint scaling limit of the height and both current-cluster collections in every bounded Jordan domain, for every admissible polygonal approximation. The height converges to a Gaussian free field with the predicted coupling constant, and the clusters converge to canonical recursive two-valued local sets of that same field. The joint limit includes all nesting depths and the distinguished wired boundary cluster.",
-      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/The-joint-scaling-limit-of-critical-Ashkin-Teller-currents-September-25-2026/main.pdf",
-      "dirUrl": "https://github.com/openai/math/tree/main/preprints/The-joint-scaling-limit-of-critical-Ashkin-Teller-currents-September-25-2026",
+      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/The-joint-scaling-limit-of-critical-Ashkin-Teller-currents-October-6-2026/main.pdf",
+      "dirUrl": "https://github.com/openai/math/tree/main/preprints/The-joint-scaling-limit-of-critical-Ashkin-Teller-currents-October-6-2026",
       "formalized": false,
       "leanUrl": null
     },
@@ -7230,8 +7197,8 @@
       "abstract": "Critical self-avoiding walks between prescribed, macroscopically separated boundary ports of a regular honeycomb hexagon have length $R^{4/3+o(1)}$ in probability, where R is the scale of the hexagon. We prove the corresponding statements for half-plane arches, parallel cuts and nonparallel pure cuts. The half-plane law also has mean length $R^{4/3+o(1)}$. A separate strip argument gives endpoint mean laws on one density-one set of heights and in an aligned, critically weighted mixture of all even heights in a macroscopic interval.",
       "pdfUrl": "https://github.com/openai/math/blob/main/preprints/Critical-honeycomb-chords-with-prescribed-boundary-endpoints-September-26-2026/main.pdf",
       "dirUrl": "https://github.com/openai/math/tree/main/preprints/Critical-honeycomb-chords-with-prescribed-boundary-endpoints-September-26-2026",
-      "formalized": false,
-      "leanUrl": null
+      "formalized": true,
+      "leanUrl": "https://github.com/openai/math/blob/main/lean/docs/237.md"
     },
     {
       "slug": "Cylinder-loop-weights-and-planar-nesting-September-26-2026",
@@ -8792,8 +8759,8 @@
       "abstract": "We prove that the canonical topological cone of all extended lower-semicontinuous tracial weights determines a separable nuclear C^{∗}-algebra after tensoring with the Razak–Jacelon algebra and the compact operators, answering Robert's trace-cone classification question positively. The isomorphism realizes the prescribed cone map, with arbitrary ideal structure and without a density assumption on the finite domains of the weights.",
       "pdfUrl": "https://github.com/openai/math/blob/main/preprints/The-trace-cone-classifies-Razak-Jacelon-stabilizations-September-25-2026/The-trace-cone-classifies-Razak-Jacelon-stabilizations-September-25-2026.pdf",
       "dirUrl": "https://github.com/openai/math/tree/main/preprints/The-trace-cone-classifies-Razak-Jacelon-stabilizations-September-25-2026",
-      "formalized": false,
-      "leanUrl": null
+      "formalized": true,
+      "leanUrl": "https://github.com/openai/math/blob/main/lean/docs/301.md"
     },
     {
       "slug": "Filtered-products-and-boundary-preserving-compression-in-complex-cobordism-September-25-2026",
@@ -9456,26 +9423,26 @@
       "leanUrl": null
     },
     {
-      "slug": "Deforming-hypersymplectic-four-manifolds-to-hyperkahler-triples-September-23-2026",
+      "slug": "Deforming-hypersymplectic-four-manifolds-to-hyperkahler-triples-October-7-2026",
       "title": "Deforming hypersymplectic four-manifolds to hyperkähler triples",
-      "date": "2026-09-23",
+      "date": "2026-10-07",
       "family": "341",
       "abstract": "Every smooth normalized positive triple of closed two-forms on a closed connected oriented four-manifold admits a smooth deformation, with each cohomology class fixed, to a hyperkähler triple. This resolves Donaldson's hypersymplectic deformation conjecture.",
-      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/Deforming-hypersymplectic-four-manifolds-to-hyperkahler-triples-September-23-2026/paper.pdf",
-      "dirUrl": "https://github.com/openai/math/tree/main/preprints/Deforming-hypersymplectic-four-manifolds-to-hyperkahler-triples-September-23-2026",
+      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/Deforming-hypersymplectic-four-manifolds-to-hyperkahler-triples-October-7-2026/paper.pdf",
+      "dirUrl": "https://github.com/openai/math/tree/main/preprints/Deforming-hypersymplectic-four-manifolds-to-hyperkahler-triples-October-7-2026",
       "formalized": false,
       "leanUrl": null
     },
     {
-      "slug": "Taming-implies-compatibility-on-four-manifolds-September-23-2026",
+      "slug": "Taming-implies-compatibility-on-four-manifolds-October-6-2026",
       "title": "Taming implies compatibility on four-manifolds",
-      "date": "2026-09-23",
+      "date": "2026-10-06",
       "family": "342",
-      "abstract": "We prove that every smooth almost complex structure on a closed four-manifold which is tamed by a symplectic form is compatible with a symplectic form. This gives a positive solution to Donaldson's tamed-to-compatible conjecture.",
-      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/Taming-implies-compatibility-on-four-manifolds-September-23-2026/paper.pdf",
-      "dirUrl": "https://github.com/openai/math/tree/main/preprints/Taming-implies-compatibility-on-four-manifolds-September-23-2026",
-      "formalized": true,
-      "leanUrl": "https://github.com/openai/math/blob/main/lean/docs/342.md"
+      "abstract": "We prove that every smooth almost complex structure on a closed four-manifold which is tamed by a symplectic form is compatible with a symplectic form. This gives a positive solution to Donaldson's tamed-to-compatible conjecture. We also characterize the compatible cone by strict intersection positivity on the closure of the invariant part of the taming cone.",
+      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/Taming-implies-compatibility-on-four-manifolds-October-6-2026/paper.pdf",
+      "dirUrl": "https://github.com/openai/math/tree/main/preprints/Taming-implies-compatibility-on-four-manifolds-October-6-2026",
+      "formalized": false,
+      "leanUrl": null
     },
     {
       "slug": "Symplectic-Ball-Packings-in-Higher-Dimensions-September-23-2026",
@@ -10160,15 +10127,15 @@
       "leanUrl": null
     },
     {
-      "slug": "Incompressible-Box-Transport-and-Finite-Computation-September-27-2026",
+      "slug": "Incompressible-Box-Transport-and-Finite-Computation-October-6-2026",
       "title": "Incompressible Box Transport and Finite Computation",
-      "date": "2026-09-27",
+      "date": "2026-10-06",
       "family": "376",
       "abstract": "We realize finite positive diagonal affine maps of determinant one by effective smooth incompressible flows on neighborhoods of entire closed rational solid boxes. The source and target families are each disjoint, but may overlap each other. The construction uses localized curls, evacuation to storage and obstacle detours. A balanced three-stack recorder then assigns every machine and finite input a smooth Navier–Stokes force with one compact spatial support, periodic after a loading interval, at any fixed positive computable viscosity. The fluid starts at rest, and one fixed particle enters one fixed open cube exactly when the machine halts. Further constructions give fixed torus charts, periodicity from time zero, alternative history guards and bounded or slab observers. Onto slow clocks yield separate decaying forces. Each construction includes an all-time observation proof, effective derivative bounds and a stated pressure comparison class.",
-      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/Incompressible-Box-Transport-and-Finite-Computation-September-27-2026/manuscript.pdf",
-      "dirUrl": "https://github.com/openai/math/tree/main/preprints/Incompressible-Box-Transport-and-Finite-Computation-September-27-2026",
-      "formalized": true,
-      "leanUrl": "https://github.com/openai/math/blob/main/lean/docs/376.md"
+      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/Incompressible-Box-Transport-and-Finite-Computation-October-6-2026/manuscript.pdf",
+      "dirUrl": "https://github.com/openai/math/tree/main/preprints/Incompressible-Box-Transport-and-Finite-Computation-October-6-2026",
+      "formalized": false,
+      "leanUrl": null
     },
     {
       "slug": "Uniform-Interior-C1alpha-Estimates-for-Infinity-Harmonic-Functions-October-4-2026",

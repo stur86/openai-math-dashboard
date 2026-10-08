@@ -10,7 +10,7 @@ The papers were produced by an internal OpenAI model and many are not independen
 
 Data and presentation are kept separate. Both JSON files are baked into the bundle at build time.
 
-- `data/catalogue.json`: facts scraped from the source repository at a pinned commit (titles, abstracts, dates, result families, disciplines, and Lean formalization status read from `lean/docs/*.md` and `lean/formalization.yaml`). Regenerate with `bun run fetch-catalogue [commit-sha]`.
+- `data/catalogue.json`: facts scraped from the source repository at a pinned commit (titles, abstracts, dates, result families, disciplines, and Lean formalization status read from `lean/docs/*.md` and `lean/formalization.yaml`). Regenerate with `bun run fetch-catalogue [commit-sha]`, then run `bun run sync-annotations` to carry annotations over to revised papers (whose slugs change) and drop withdrawn ones. The `update-catalogue` Claude Code skill in `.claude/skills/` walks through a full refresh.
 - `data/annotations.json`: editorial layer keyed by paper slug: `summary`, `importance`, `kind` and `tags`.
 
 `src/data.ts` joins the two. `bun test` checks that every paper has exactly one well-formed annotation, so a catalogue refresh that adds papers will fail until they are annotated.
