@@ -377,7 +377,7 @@ function PaperItem({
             <MathText text={p.title} />
           </a>
         </h3>
-        <p className="summary">{p.summary}</p>
+        <p className="summary"><MathText text={p.summary} /></p>
         <div className="paper-foot">
           <ul className="tags" aria-label="Topics">
             {p.tags.map(t => (
