@@ -1,8 +1,8 @@
 {
   "source": {
     "repo": "openai/math",
-    "ref": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
-    "fetchedAt": "2026-10-08T08:55:18.102Z"
+    "ref": "3344da59991ed94f9ba711217b29c1d760badfa6",
+    "fetchedAt": "2026-11-26T12:50:31.064Z"
   },
   "families": [
     {
@@ -194,7 +194,7 @@
     {
       "id": "032",
       "title": "The rational Hodge conjecture for CM abelian varieties",
-      "description": "Proves the rational Hodge conjecture for every complex CM abelian variety, in every dimension and codimension. Through Milne's theorems, this also gives the Tate conjecture for all abelian varieties over finite fields and the Hodge standard conjecture for abelian varieties in every characteristic.",
+      "description": "Proves the rational Hodge conjecture for every complex CM abelian variety, in every dimension and codimension. Through Milne's theorems, this also gives the Tate conjecture for all abelian varieties over finite fields and the Hodge standard conjecture for abelian varieties in every characteristic. ([Lean](lean/docs/032.md))",
       "discipline": "Algebraic and complex geometry"
     },
     {
@@ -457,8 +457,8 @@
     },
     {
       "id": "079",
-      "title": "Local smoothing in three dimensions",
-      "description": "Resolves Sogge's local smoothing conjecture for the Euclidean wave equation in three spatial dimensions. The estimate holds throughout the full strict range $2\\lt p\\lt \\infty$, with Sobolev regularity above $\\max\\{0,1-3/p\\}$. In particular, the critical L^{3} estimate holds with every positive Sobolev loss.",
+      "title": "Local smoothing for the Euclidean wave equation",
+      "description": "Proves Sogge’s local smoothing conjecture in every spatial dimension $n\\ge2$, with arbitrarily small loss above the sharp Sobolev threshold. The wave estimate yields the Bochner–Riesz conjecture and, for $2\\le p\\lt\\infty$, maximal bounds for these means and sharp bounds for Stein’s square function. It also gives Fourier restriction throughout the interior of the conjectured range for the sphere, compact paraboloid, and truncated cone, and local smoothing for the Schrödinger equation. The Kakeya and Nikodym maximal conjectures follow. In particular, every Euclidean Kakeya set has full Hausdorff dimension. ([Lean](lean/docs/079.md))",
       "discipline": "Real and complex analysis"
     },
     {
@@ -638,7 +638,7 @@
     {
       "id": "109",
       "title": "Integer multiplication below $n\\log n$",
-      "description": "Multiplies two n-bit integers exactly at every input length in deterministic worst-case time $O(n(\\log n)^{1-\\kappa})$, with $\\kappa=2^{-182}$, on one fixed finite-alphabet Turing machine with finitely many one-dimensional tapes. This disproves the Schönhage–Strassen $n\\log n$ optimality conjecture in the ordinary multitape bit model.",
+      "description": "Multiplies two n-bit integers exactly at every input length in deterministic worst-case time $O(n(\\log n)^{1-\\kappa})$, with $\\kappa=2^{-182}$, on one fixed finite-alphabet Turing machine with finitely many one-dimensional tapes. This disproves the Schönhage–Strassen $n\\log n$ optimality conjecture in the ordinary multitape bit model. ([Lean](lean/docs/109.md))",
       "discipline": "Theoretical computer science"
     },
     {
@@ -2236,6 +2236,24 @@
       "title": "Interior $C^{1,\\alpha}$ regularity for infinity-harmonic functions",
       "description": "Proves uniform interior $C^{1,\\alpha_d}$ regularity for bounded infinity-harmonic functions in every dimension d ≥ 3, for a positive exponent depending only on dimension. The gradient's supremum norm and Hölder seminorm on the half unit ball are bounded by a dimension-dependent constant times the oscillation on the unit ball. The exponent is not explicit.",
       "discipline": "Partial differential equations"
+    },
+    {
+      "id": "378",
+      "title": "Disproof of the Exponential Time Hypothesis",
+      "description": "For every fixed $k\\ge2$, a deterministic algorithm counts the satisfying assignments of a $k$-CNF with $n$ variables and $m$ clauses in time $(n+m)^{O_k(1)}2^{n/(\\log n)^{1/2+o(1)}}$. This yields superlinear circuit lower bounds for a language in $\\mathsf{E}^{\\mathsf{NP}}$ on infinitely many input lengths. ([Lean](lean/docs/378.md))",
+      "discipline": "Theoretical computer science"
+    },
+    {
+      "id": "379",
+      "title": "Euclidean tensor geometry and its applications to complexity and combinatorics",
+      "description": "Euclidean tensor prices yield strict separations of the arithmetic hierarchy, circuit lower bounds for Hamiltonian cycle over every field and for the permanent outside characteristic two, and an exponential bound for sunflower-free families with a fixed number of petals. The square matrix multiplication exponent is $9/4$ over every field. The logarithmic exponent of finite abelian Fourier transforms is $1/2$. Integer multiplication on tapes takes $n(1+\\log n)^{1/2+o(1)}$ time on one fixed machine, and variable-count Weak ETH gives the matching logarithmic exponent. ([Lean](lean/docs/379.md))",
+      "discipline": "Theoretical computer science"
+    },
+    {
+      "id": "380",
+      "title": "Strongly polynomial-time linear programming",
+      "description": "A deterministic algorithm solves linear programs with arbitrary real coefficients in a number of steps polynomial in the numbers of variables and constraints, answering Smale’s ninth problem. Bounded simple rational polytopes can have graph diameter superpolynomial in their facet count, refuting the polynomial Hirsch conjecture. For any prescribed subpolynomial bound on face dimension, the examples can be chosen so that even moves across such faces require superpolynomially many steps. ([Lean](lean/docs/380.md))",
+      "discipline": "Theoretical computer science"
     }
   ],
   "papers": [
@@ -2885,8 +2903,8 @@
       "abstract": "We prove the rational Hodge conjecture for complex abelian varieties with complex multiplication: every rational Hodge class on such a variety is a rational linear combination of algebraic cycle classes. As consequences, we obtain the generalized Hodge conjecture for CM abelian varieties, the Tate conjecture for abelian varieties over finite fields, and the Hodge standard conjecture for abelian varieties in arbitrary characteristic.",
       "pdfUrl": "https://github.com/openai/math/blob/main/preprints/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/paper.pdf",
       "dirUrl": "https://github.com/openai/math/tree/main/preprints/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026",
-      "formalized": false,
-      "leanUrl": null
+      "formalized": true,
+      "leanUrl": "https://github.com/openai/math/blob/main/lean/docs/032.md"
     },
     {
       "slug": "Algebraic-Kuga-Satake-correspondences-and-Hodge-conjectures-on-a-K3-quadratic-locus-September-30-2026",
@@ -3978,6 +3996,17 @@
       "leanUrl": null
     },
     {
+      "slug": "Local-smoothing-for-the-Euclidean-wave-equation-October-25-2026",
+      "title": "Local smoothing for the Euclidean wave equation",
+      "date": "2026-10-25",
+      "family": "079",
+      "abstract": "We prove Sogge’s local smoothing conjecture for the Euclidean wave equation in every spatial dimension at least two. We deduce the Bochner–Riesz conjecture, maximal estimates for these means, and sharp bounds for Stein’s square function. We obtain Fourier restriction estimates for the sphere, the compact paraboloid, and the truncated cone throughout the interior of the conjectured range, as well as local smoothing for the Schrödinger equation. We also prove the Kakeya and Nikodym maximal conjectures. In particular, every Euclidean Kakeya set has full Hausdorff dimension.",
+      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/Local-smoothing-for-the-Euclidean-wave-equation-October-25-2026/paper.pdf",
+      "dirUrl": "https://github.com/openai/math/tree/main/preprints/Local-smoothing-for-the-Euclidean-wave-equation-October-25-2026",
+      "formalized": true,
+      "leanUrl": "https://github.com/openai/math/blob/main/lean/docs/079.md"
+    },
+    {
       "slug": "Critical-local-smoothing-for-the-three-dimensional-wave-equation-September-24-2026",
       "title": "Critical local smoothing for the three-dimensional wave equation",
       "date": "2026-09-24",
@@ -3985,8 +4014,8 @@
       "abstract": "We prove the critical L^{3} local smoothing estimate for the wave equation in three spatial dimensions, with every positive Sobolev loss. This resolves Sogge's Euclidean local smoothing conjecture in dimension three.",
       "pdfUrl": "https://github.com/openai/math/blob/main/preprints/Critical-local-smoothing-for-the-three-dimensional-wave-equation-September-24-2026/paper.pdf",
       "dirUrl": "https://github.com/openai/math/tree/main/preprints/Critical-local-smoothing-for-the-three-dimensional-wave-equation-September-24-2026",
-      "formalized": false,
-      "leanUrl": null
+      "formalized": true,
+      "leanUrl": "https://github.com/openai/math/blob/main/lean/docs/079.md"
     },
     {
       "slug": "Endpoint-convergence-for-the-planar-Schrodinger-equation-September-24-2026",
@@ -10147,6 +10176,116 @@
       "dirUrl": "https://github.com/openai/math/tree/main/preprints/Uniform-Interior-C1alpha-Estimates-for-Infinity-Harmonic-Functions-October-4-2026",
       "formalized": false,
       "leanUrl": null
+    },
+    {
+      "slug": "The-Exponential-Time-Hypothesis-is-False-October-25-2026",
+      "title": "The Exponential Time Hypothesis is False",
+      "date": "2026-10-25",
+      "family": "378",
+      "abstract": "We give a deterministic algorithm for exactly counting the satisfying assignments of an arbitrary $k$-CNF formula. For every fixed $k\\ge2$, on a formula with $n$ variables and $m$ clauses, our algorithm uses space polynomial in $n$ and $m$ and runs in time $(n+m)^{O_k(1)}2^{n/(\\log n)^{1/2+o(1)}}$. Our algorithm refutes the Exponential Time Hypothesis (ETH), which postulates that deciding 3-SAT on $n$ variables requires $2^{\\Omega(n)}$ time in the worst case.",
+      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
+      "dirUrl": "https://github.com/openai/math/tree/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026",
+      "formalized": true,
+      "leanUrl": "https://github.com/openai/math/blob/main/lean/docs/378.md"
+    },
+    {
+      "slug": "Euclidean-geometry-in-the-asymptotic-spectrum-of-tensors-November-24-2026",
+      "title": "Euclidean geometry in the asymptotic spectrum of tensors",
+      "date": "2026-11-24",
+      "family": "379",
+      "abstract": "Over any field, we assign costs to tensors with indices placed in a real Hilbert space so that a bit shared by two sites costs exactly their distance. On each finite set of two or more sites, the costs are scaled logarithms of invariants that add under direct sums, multiply under tensor products, and cannot increase under local linear maps. In every such system, a bit shared among finitely many sites costs the mean width of their convex hull, normalized to give a segment its length. For a triangle this is half its perimeter. Companion papers use these costs to compare tensors with the networks that produce them, yielding lower bounds for arithmetic circuits and an exponential bound on the size of sunflower-free set families.",
+      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/Euclidean-geometry-in-the-asymptotic-spectrum-of-tensors-November-24-2026/paper.pdf",
+      "dirUrl": "https://github.com/openai/math/tree/main/preprints/Euclidean-geometry-in-the-asymptotic-spectrum-of-tensors-November-24-2026",
+      "formalized": true,
+      "leanUrl": "https://github.com/openai/math/blob/main/lean/docs/379.md"
+    },
+    {
+      "slug": "Paths-trees-and-grids-separate-Valiants-hierarchy-November-24-2026",
+      "title": "Paths, trees and grids separate Valiant’s hierarchy",
+      "date": "2026-11-24",
+      "family": "379",
+      "abstract": "We prove that $\\mathsf{VP}\\ne\\mathsf{VNP}$ over every field. Our witness is the state sum on an $n\\times n$ square grid. It belongs to $\\mathsf{VNP}$ and requires arithmetic circuits of size $n^{\\Omega((\\log n)^{1/12})}$. On binary trees and paths, the same construction separates arithmetic circuits from algebraic branching programs and branching programs from formulas, respectively. All three lower bounds hold in degree-component border complexity. We also characterize the graph families whose state sums have polynomial size in each model.",
+      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/Paths-trees-and-grids-separate-Valiants-hierarchy-November-24-2026/paper.pdf",
+      "dirUrl": "https://github.com/openai/math/tree/main/preprints/Paths-trees-and-grids-separate-Valiants-hierarchy-November-24-2026",
+      "formalized": true,
+      "leanUrl": "https://github.com/openai/math/blob/main/lean/docs/379.md"
+    },
+    {
+      "slug": "Circuit-lower-bounds-for-Hamiltonian-cycle-and-the-permanent-November-24-2026",
+      "title": "Circuit lower bounds for Hamiltonian cycle and the permanent",
+      "date": "2026-11-24",
+      "family": "379",
+      "abstract": "We prove that over every field, arithmetic circuits for the directed Hamiltonian cycle polynomial of order $N$ require at least $\\exp\\!\\bigl(c(\\log N)^2/(\\log\\log N)^2\\bigr)$ gates for all sufficiently large $N$. The constant $c>0$ is absolute, and the threshold depends only on the characteristic. The same lower bound holds for the permanent outside characteristic two. Both bounds hold even when a circuit need only approximate the coefficients of degree $N$.",
+      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/Circuit-lower-bounds-for-Hamiltonian-cycle-and-the-permanent-November-24-2026/paper.pdf",
+      "dirUrl": "https://github.com/openai/math/tree/main/preprints/Circuit-lower-bounds-for-Hamiltonian-cycle-and-the-permanent-November-24-2026",
+      "formalized": true,
+      "leanUrl": "https://github.com/openai/math/blob/main/lean/docs/379.md"
+    },
+    {
+      "slug": "The-logarithmic-exponent-of-finite-Fourier-transforms-November-24-2026",
+      "title": "The logarithmic exponent of finite Fourier transforms",
+      "date": "2026-11-24",
+      "family": "379",
+      "abstract": "The minimum number of binary linear gates for a finite abelian Fourier transform of order $N$ is $N(\\log N)^{1/2+o(1)}$. This holds over every field in which $N$ is invertible and which contains the required roots of unity. The same cost per transform holds for any number of independent inputs, even when gates can mix them. Formal polynomial multiplication has the same logarithmic exponent over every field, including for batches of independent products.",
+      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/The-logarithmic-exponent-of-finite-Fourier-transforms-November-24-2026/paper.pdf",
+      "dirUrl": "https://github.com/openai/math/tree/main/preprints/The-logarithmic-exponent-of-finite-Fourier-transforms-November-24-2026",
+      "formalized": true,
+      "leanUrl": "https://github.com/openai/math/blob/main/lean/docs/379.md"
+    },
+    {
+      "slug": "The-logarithmic-exponent-of-integer-multiplication-on-tapes-November-24-2026",
+      "title": "The logarithmic exponent of integer multiplication on tapes",
+      "date": "2026-11-24",
+      "family": "379",
+      "abstract": "A single deterministic multitape Turing machine multiplies two $n$-bit integers exactly in $n(1+\\log n)^{1/2+o(1)}$ time and visits $O(n)$ tape cells. Under the variable-count Weak Exponential Time Hypothesis for 3-SAT, every deterministic multitape multiplier requires $\\Omega(n\\sqrt{\\log n})$ steps in the worst case at each sufficiently large length. Under this hypothesis the optimal logarithmic exponent is therefore $1/2$. Exact integer division and integer square root have the same upper and conditional lower bounds.",
+      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/The-logarithmic-exponent-of-integer-multiplication-on-tapes-November-24-2026/paper.pdf",
+      "dirUrl": "https://github.com/openai/math/tree/main/preprints/The-logarithmic-exponent-of-integer-multiplication-on-tapes-November-24-2026",
+      "formalized": true,
+      "leanUrl": "https://github.com/openai/math/blob/main/lean/docs/379.md"
+    },
+    {
+      "slug": "The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026",
+      "title": "The matrix multiplication exponent is nine fourths",
+      "date": "2026-11-24",
+      "family": "379",
+      "abstract": "We prove that the exponent of square matrix multiplication is $9/4$ over every field. The upper bound was known. For each $n\\ge2$, a formal arithmetic circuit multiplying two $n\\times n$ matrices needs at least $n^{9/4}/2$ multiplication or division gates. The proof shows that a smaller exponent would compress tensor networks enough to violate a lower bound for testing whether the entries in each of several independent lists are distinct.",
+      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
+      "dirUrl": "https://github.com/openai/math/tree/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026",
+      "formalized": true,
+      "leanUrl": "https://github.com/openai/math/blob/main/lean/docs/379.md"
+    },
+    {
+      "slug": "An-exponential-bound-for-sunflowers-November-24-2026",
+      "title": "An exponential bound for sunflowers",
+      "date": "2026-11-24",
+      "family": "379",
+      "abstract": "We prove the fixed-petal sunflower conjecture of Erdős and Rado. For every $r\\ge3$, a family of more than $B_r^k$ distinct sets of size at most $k$ contains $r$ sets whose pairwise intersections are all the same. The base depends only on $r$ and satisfies $\\log B_r=O((\\log r)^4(\\log\\log(2r))^{5/2})$.",
+      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/An-exponential-bound-for-sunflowers-November-24-2026/paper.pdf",
+      "dirUrl": "https://github.com/openai/math/tree/main/preprints/An-exponential-bound-for-sunflowers-November-24-2026",
+      "formalized": true,
+      "leanUrl": "https://github.com/openai/math/blob/main/lean/docs/379.md"
+    },
+    {
+      "slug": "Strongly-polynomial-linear-programming-November-24-2026",
+      "title": "Strongly polynomial linear programming",
+      "date": "2026-11-24",
+      "family": "380",
+      "abstract": "We give a deterministic strongly polynomial algorithm for linear programming, answering Smale’s ninth problem. For arbitrary real coefficients, the number of steps is bounded by a polynomial in the numbers of variables and constraints. For rational data, every intermediate number has bit length polynomial in the binary input length. The method also gives a strongly polynomial algorithm for convex quadratic programming. For finite turn-based mean-payoff games with perfect information, it gives strongly polynomial time for deterministic games and polynomial bit time for stochastic games with binary rational data.",
+      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/Strongly-polynomial-linear-programming-November-24-2026/paper.pdf",
+      "dirUrl": "https://github.com/openai/math/tree/main/preprints/Strongly-polynomial-linear-programming-November-24-2026",
+      "formalized": true,
+      "leanUrl": "https://github.com/openai/math/blob/main/lean/docs/380.md"
+    },
+    {
+      "slug": "Superpolynomial-graph-diameter-of-simple-polytopes-November-24-2026",
+      "title": "Superpolynomial graph diameter of simple polytopes",
+      "date": "2026-11-24",
+      "family": "380",
+      "abstract": "We disprove the polynomial Hirsch conjecture. For every sufficiently large $n$, we construct a bounded simple rational polytope with exactly $n$ facets whose graph diameter grows faster than every fixed power of $n$. Its dimension grows more slowly than every positive power of $n$. For any prescribed subpolynomial $s(n)$, two vertices can remain superpolynomially far apart even when a single step may cross any face of dimension at most $s(n)$.",
+      "pdfUrl": "https://github.com/openai/math/blob/main/preprints/Superpolynomial-graph-diameter-of-simple-polytopes-November-24-2026/paper.pdf",
+      "dirUrl": "https://github.com/openai/math/tree/main/preprints/Superpolynomial-graph-diameter-of-simple-polytopes-November-24-2026",
+      "formalized": true,
+      "leanUrl": "https://github.com/openai/math/blob/main/lean/docs/380.md"
     }
   ]
 }

@@ -101,6 +101,9 @@ const tagOverrides: Record<string, string> = {
   "calderon-problem": "Calderón problem",
   "k3-surfaces": "K3 surfaces",
   "colin-de-verdiere": "Colin de Verdière",
+  "vp-vs-vnp": "VP vs VNP",
+  "smales-problems": "Smale's problems",
+  "hirsch-conjecture": "Hirsch conjecture",
 };
 
 const acronyms = new Set(

@@ -1507,6 +1507,17 @@
       "harmonic-analysis"
     ]
   },
+  "Local-smoothing-for-the-Euclidean-wave-equation-October-25-2026": {
+    "summary": "Proves Sogge's local smoothing conjecture for the wave equation in every dimension, extending the earlier 3D result. As consequences it claims the Bochner–Riesz conjecture, the Kakeya maximal conjecture (so every Kakeya set has full dimension) and Fourier restriction for the sphere throughout the open conjectured range, which would settle several central problems of harmonic analysis at once.",
+    "importance": 5,
+    "kind": "proof",
+    "tags": [
+      "local-smoothing",
+      "kakeya-conjecture",
+      "bochner-riesz",
+      "fourier-restriction"
+    ]
+  },
   "Critical-local-smoothing-for-the-three-dimensional-wave-equation-September-24-2026": {
     "summary": "Proves Sogge's local smoothing conjecture for the 3D wave equation: waves average out to become smoother than their initial data.",
     "importance": 5,
@@ -6656,6 +6667,106 @@
     "tags": [
       "infinity-harmonic",
       "regularity"
+    ]
+  },
+  "The-Exponential-Time-Hypothesis-is-False-October-25-2026": {
+    "summary": "Gives a deterministic algorithm that counts the solutions of a 3-SAT formula with $n$ variables in time about $2^{n/\\sqrt{\\log n}}$, using polynomial space. This refutes the Exponential Time Hypothesis, the widely assumed claim that 3-SAT needs $2^{\\Omega(n)}$ time. It does not show P = NP or give subexponential algorithms for all NP problems.",
+    "importance": 5,
+    "kind": "algorithm",
+    "tags": [
+      "exponential-time-hypothesis",
+      "exponential-algorithms",
+      "circuit-lower-bounds"
+    ]
+  },
+  "Euclidean-geometry-in-the-asymptotic-spectrum-of-tensors-November-24-2026": {
+    "summary": "Builds the foundational tool behind the November 24 complexity papers: a way to price tensors whose indices sit at points in Euclidean space, so that sharing a bit between two points costs their distance. Sharing a bit among several points costs the mean width of their convex hull. The companion papers turn these prices into circuit lower bounds and the sunflower bound.",
+    "importance": 3,
+    "kind": "construction",
+    "tags": [
+      "asymptotic-spectrum",
+      "tensor-networks",
+      "algebraic-complexity"
+    ]
+  },
+  "Paths-trees-and-grids-separate-Valiants-hierarchy-November-24-2026": {
+    "summary": "Proves VP ≠ VNP over every field, Valiant's algebraic analogue of P vs NP: a grid polynomial in VNP needs arithmetic circuits of size $n^{\\Omega((\\log n)^{1/12})}$. It also separates formulas, branching programs and circuits. This is the algebraic version only and does not settle the Boolean P vs NP problem. The lower bounds rely on the companion Euclidean-prices paper.",
+    "importance": 5,
+    "kind": "proof",
+    "tags": [
+      "vp-vs-vnp",
+      "algebraic-complexity",
+      "circuit-lower-bounds"
+    ]
+  },
+  "Circuit-lower-bounds-for-Hamiltonian-cycle-and-the-permanent-November-24-2026": {
+    "summary": "Shows the permanent (outside characteristic two) and the Hamiltonian cycle polynomial need arithmetic circuits of size $\\exp(c(\\log N)^2/(\\log\\log N)^2)$, even approximate ones. These are the classical VNP-complete polynomials, and the bound is larger than the companion grid paper's. It concerns algebraic circuits, not Boolean P vs NP.",
+    "importance": 4,
+    "kind": "bound",
+    "tags": [
+      "vp-vs-vnp",
+      "permanent-vs-determinant",
+      "circuit-lower-bounds"
+    ]
+  },
+  "The-logarithmic-exponent-of-finite-Fourier-transforms-November-24-2026": {
+    "summary": "Shows the Fast Fourier Transform's $N\\log N$ operation count is not optimal: linear circuits of size $N(\\log N)^{1/2+o(1)}$ suffice, and order $N\\sqrt{\\log N}$ is necessary even with arbitrary coefficients. The same exponent holds for polynomial multiplication, including batches of independent inputs.",
+    "importance": 4,
+    "kind": "bound",
+    "tags": [
+      "fourier-transform",
+      "algebraic-complexity",
+      "lower-bounds"
+    ]
+  },
+  "The-logarithmic-exponent-of-integer-multiplication-on-tapes-November-24-2026": {
+    "summary": "A single multitape Turing machine multiplies $n$-bit integers in time $n(\\log n)^{1/2+o(1)}$, improving the earlier below-$n\\log n$ result. The matching $\\Omega(n\\sqrt{\\log n})$ lower bound is conditional: it assumes a weak form of the Exponential Time Hypothesis that the companion ETH refutation leaves open.",
+    "importance": 3,
+    "kind": "algorithm",
+    "tags": [
+      "integer-multiplication",
+      "algorithms",
+      "lower-bounds"
+    ]
+  },
+  "The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026": {
+    "summary": "Proves a lower bound of $n^{9/4}/2$ multiplications for multiplying $n\\times n$ matrices, matching the earlier $\\omega\\le 9/4$ algorithm, so the matrix multiplication exponent is exactly $\\omega = 9/4$ over every field. This disproves the long-standing hope that $\\omega = 2$. The argument relies on the companion Euclidean-prices and network papers.",
+    "importance": 5,
+    "kind": "bound",
+    "tags": [
+      "matrix-multiplication",
+      "algebraic-complexity",
+      "lower-bounds"
+    ]
+  },
+  "An-exponential-bound-for-sunflowers-November-24-2026": {
+    "summary": "Proves the Erdős–Rado sunflower conjecture: for each fixed $r$, a family of more than $B_r^k$ sets of size $k$ contains $r$ sets with all pairwise intersections equal. The base $B_r$ is quasi-polynomial in $r$; whether it can be linear in $r$ is left open. The proof uses the companion Euclidean-prices paper.",
+    "importance": 5,
+    "kind": "proof",
+    "tags": [
+      "sunflower-conjecture",
+      "extremal-combinatorics",
+      "asymptotic-spectrum"
+    ]
+  },
+  "Strongly-polynomial-linear-programming-November-24-2026": {
+    "summary": "Gives a deterministic algorithm for linear programming whose number of arithmetic steps depends only on the numbers of variables and constraints, not on the size of the numbers. This answers Smale's ninth problem in full. It also covers convex quadratic programs and gives polynomial-time algorithms for mean-payoff and simple stochastic games.",
+    "importance": 5,
+    "kind": "algorithm",
+    "tags": [
+      "linear-programming",
+      "smales-problems",
+      "mean-payoff-games"
+    ]
+  },
+  "Superpolynomial-graph-diameter-of-simple-polytopes-November-24-2026": {
+    "summary": "Disproves the polynomial Hirsch conjecture: it builds bounded simple polytopes with $n$ facets whose vertex-edge graphs have diameter larger than any power of $n$. So the simplex method cannot run in polynomial time with any pivot rule, even one that knows the destination. The companion strongly-polynomial LP algorithm works without walking along edges.",
+    "importance": 5,
+    "kind": "counterexample",
+    "tags": [
+      "hirsch-conjecture",
+      "polytopes",
+      "linear-programming"
     ]
   }
 }

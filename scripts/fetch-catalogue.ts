@@ -7,7 +7,7 @@
 import path from "node:path";
 
 const REPO = "openai/math";
-const ref = process.argv[2] ?? "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb";
+const ref = process.argv[2] ?? "3344da59991ed94f9ba711217b29c1d760badfa6";
 const raw = (file: string) => `https://raw.githubusercontent.com/${REPO}/${ref}/${file}`;
 
 async function get(file: string): Promise<string> {
@@ -77,7 +77,7 @@ const cells = [...contents.matchAll(/<td>\s*([\s\S]*?)\s*<\/td>/g)].map(m => m[1
 
 let current: Family | undefined;
 for (const cell of cells) {
-  const fam = cell.match(/^\*\*(\d+)\. ([\s\S]*?)\*\* ([\s\S]*)$/);
+  const fam = cell.match(/^(?:<a name="[^"]*"><\/a>)?\*\*(\d+)\. ([\s\S]*?)\*\* ([\s\S]*)$/);
   if (fam) {
     const [, id, title, description] = fam as unknown as [string, string, string, string];
     current = {
